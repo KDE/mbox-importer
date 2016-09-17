@@ -37,9 +37,8 @@ MBoxMainWindow::MBoxMainWindow(const QString &filename, QWidget *parent)
       mFileName(filename)
 {
     setWindowTitle(i18n("Import mbox file"));
+    QVBoxLayout *mainLayout = new QVBoxLayout(this);
     QDialogButtonBox *buttonBox = new QDialogButtonBox(QDialogButtonBox::Close);
-    QVBoxLayout *mainLayout = new QVBoxLayout;
-    setLayout(mainLayout);
     connect(buttonBox, &QDialogButtonBox::rejected, this, &MBoxMainWindow::reject);
 
     buttonBox->button(QDialogButtonBox::Close)->setDefault(true);
@@ -48,7 +47,7 @@ MBoxMainWindow::MBoxMainWindow(const QString &filename, QWidget *parent)
     CommonKernel->registerKernelIf(kernel);   //register KernelIf early, it is used by the Filter classes
     CommonKernel->registerSettingsIf(kernel);   //SettingsIf is used in FolderTreeWidget
 
-    mImportWidget = new MBoxImportWidget;
+    mImportWidget = new MBoxImportWidget(this);
     mainLayout->addWidget(mImportWidget);
     mainLayout->addWidget(buttonBox);
 
