@@ -35,6 +35,7 @@ class FolderCollectionMonitor;
 
 class MBoxImporterKernel : public QObject, public MailCommon::IKernel, public MailCommon::ISettings
 {
+    Q_OBJECT
 public:
     explicit MBoxImporterKernel(QObject *parent = Q_NULLPTR);
 
