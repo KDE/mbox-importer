@@ -41,7 +41,7 @@ class MBoxImportWidget : public QWidget
 {
     Q_OBJECT
 public:
-    explicit MBoxImportWidget(QWidget *parent = Q_NULLPTR);
+    explicit MBoxImportWidget(QWidget *parent = nullptr);
     ~MBoxImportWidget();
     MailImporter::ImportMailsWidget *mailWidget();
     Akonadi::Collection selectedCollection() const;

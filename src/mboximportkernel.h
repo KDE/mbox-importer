@@ -37,7 +37,7 @@ class MBoxImporterKernel : public QObject, public MailCommon::IKernel, public Ma
 {
     Q_OBJECT
 public:
-    explicit MBoxImporterKernel(QObject *parent = Q_NULLPTR);
+    explicit MBoxImporterKernel(QObject *parent = nullptr);
 
     KIdentityManagement::IdentityManager *identityManager() Q_DECL_OVERRIDE;
     MessageComposer::MessageSender *msgSender() Q_DECL_OVERRIDE;

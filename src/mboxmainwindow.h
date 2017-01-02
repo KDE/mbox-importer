@@ -27,7 +27,7 @@ class MBoxMainWindow : public QDialog
 {
     Q_OBJECT
 public:
-    explicit MBoxMainWindow(const QString &filename, QWidget *parent = Q_NULLPTR);
+    explicit MBoxMainWindow(const QString &filename, QWidget *parent = nullptr);
     ~MBoxMainWindow();
 
 private Q_SLOTS:
