@@ -53,7 +53,7 @@ KIdentityManagement::IdentityManager *MBoxImporterKernel::identityManager()
 
 MessageComposer::MessageSender *MBoxImporterKernel::msgSender()
 {
-    return 0;
+    return nullptr;
 }
 
 Akonadi::EntityMimeTypeFilterModel *MBoxImporterKernel::collectionModel() const
@@ -74,7 +74,7 @@ void MBoxImporterKernel::syncConfig()
 MailCommon::JobScheduler *MBoxImporterKernel::jobScheduler() const
 {
     Q_ASSERT(false);
-    return 0;
+    return nullptr;
 }
 
 Akonadi::ChangeRecorder *MBoxImporterKernel::folderCollectionMonitor() const
