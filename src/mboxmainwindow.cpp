@@ -24,6 +24,7 @@
 
 #include <mailimporter/filtermbox.h>
 #include <mailimporter/importmailswidget.h>
+#include <MailImporter/FilterImporterAkonadi>
 
 #include <MailCommon/MailKernel>
 
@@ -62,17 +63,18 @@ MBoxMainWindow::~MBoxMainWindow()
 void MBoxMainWindow::slotImportMBox()
 {
     MailImporter::FilterInfo *info = new MailImporter::FilterInfo();
+    MailImporter::FilterImporterAkonadi *filterImporterAkonadi = new MailImporter::FilterImporterAkonadi(info);
     MBoxImporterInfoGui *infoGui = new MBoxImporterInfoGui(mImportWidget);
     info->setFilterInfoGui(infoGui);
-    info->setRootCollection(mImportWidget->selectedCollection());
+    filterImporterAkonadi->setRootCollection(mImportWidget->selectedCollection());
     info->clear(); // Clear info from last time
 
     info->setStatusMessage(i18n("Import in progress"));
     MailImporter::FilterMBox mbox;
+    mbox.setFilterImporter(filterImporterAkonadi);
     mbox.setFilterInfo(info);
     info->clear();
     mbox.importMails(QStringList() << mFileName);
     info->setStatusMessage(i18n("Import finished"));
-    delete info;
 }
 
