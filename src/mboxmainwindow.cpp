@@ -24,7 +24,7 @@
 
 #include <mailimporter/filtermbox.h>
 #include <mailimporter/importmailswidget.h>
-#include <MailImporter/FilterImporterAkonadi>
+#include <MailImporterAkonadi/FilterImporterAkonadi>
 
 #include <MailCommon/MailKernel>
 
