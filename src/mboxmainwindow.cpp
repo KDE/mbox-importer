@@ -39,10 +39,6 @@ MBoxMainWindow::MBoxMainWindow(const QString &filename, QWidget *parent)
 {
     setWindowTitle(i18n("Import mbox file"));
     QVBoxLayout *mainLayout = new QVBoxLayout(this);
-    QDialogButtonBox *buttonBox = new QDialogButtonBox(QDialogButtonBox::Close);
-    connect(buttonBox, &QDialogButtonBox::rejected, this, &MBoxMainWindow::reject);
-
-    buttonBox->button(QDialogButtonBox::Close)->setDefault(true);
 
     MBoxImporterKernel *kernel = new MBoxImporterKernel(this);
     CommonKernel->registerKernelIf(kernel);   //register KernelIf early, it is used by the Filter classes
@@ -50,6 +46,11 @@ MBoxMainWindow::MBoxMainWindow(const QString &filename, QWidget *parent)
 
     mImportWidget = new MBoxImportWidget(this);
     mainLayout->addWidget(mImportWidget);
+
+    QDialogButtonBox *buttonBox = new QDialogButtonBox(QDialogButtonBox::Close, this);
+    connect(buttonBox, &QDialogButtonBox::rejected, this, &MBoxMainWindow::reject);
+
+    buttonBox->button(QDialogButtonBox::Close)->setDefault(true);
     mainLayout->addWidget(buttonBox);
 
     connect(mImportWidget, &MBoxImportWidget::importMailsClicked, this, &MBoxMainWindow::slotImportMBox);
@@ -74,7 +75,7 @@ void MBoxMainWindow::slotImportMBox()
     mbox.setFilterImporter(filterImporterAkonadi);
     mbox.setFilterInfo(info);
     info->clear();
-    mbox.importMails(QStringList() << mFileName);
+    mbox.importMails({mFileName});
     info->setStatusMessage(i18n("Import finished"));
 }
 
