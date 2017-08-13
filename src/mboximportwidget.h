@@ -17,8 +17,8 @@
    Boston, MA 02110-1301, USA.
 */
 
-#ifndef IMPORTMAILPAGE_H
-#define IMPORTMAILPAGE_H
+#ifndef MBOXIMPORTWIDGET_H
+#define MBOXIMPORTWIDGET_H
 
 #include <QWidget>
 
@@ -57,4 +57,4 @@ private:
     Ui::MBoxImportWidget *ui;
 };
 
-#endif // IMPORTMAILPAGE_H
+#endif // MBOXIMPORTWIDGET_H

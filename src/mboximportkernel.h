@@ -17,8 +17,8 @@
    Boston, MA 02110-1301, USA.
 */
 
-#ifndef MBOXIMPORTERKERNEL_H
-#define MBOXIMPORTERKERNEL_H
+#ifndef MBOXIMPORTKERNEL_H
+#define MBOXIMPORTKERNEL_H
 
 #include <MailCommon/MailInterfaces>
 
