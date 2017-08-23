@@ -35,7 +35,7 @@ private Q_SLOTS:
 
 private:
     QString mFileName;
-    MBoxImportWidget *mImportWidget;
+    MBoxImportWidget *mImportWidget = nullptr;
 };
 
 #endif // MBOXMAINWINDOW_H
