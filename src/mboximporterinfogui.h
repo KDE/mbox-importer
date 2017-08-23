@@ -42,7 +42,7 @@ public:
     QWidget *parent() const override;
 
 private:
-    MBoxImportWidget *mParent;
+    MBoxImportWidget *mParent = nullptr;
 };
 
 #endif /* MBOXIMPORTERINFOGUI_H */

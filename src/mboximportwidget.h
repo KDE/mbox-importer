@@ -54,7 +54,7 @@ Q_SIGNALS:
     void importMailsClicked();
 
 private:
-    Ui::MBoxImportWidget *ui= nullptr;
+    Ui::MBoxImportWidget *ui = nullptr;
 };
 
 #endif // MBOXIMPORTWIDGET_H
