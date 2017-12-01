@@ -2,9 +2,9 @@ set(KDEPIM_VERSION_NUMBER "5.6.90")
 cmake_minimum_required(VERSION 3.1)
 project(mbox-importer VERSION ${KDEPIM_VERSION_NUMBER})
 
-set(ECM_VERSION "5.39.0")
+set(KF5_VERSION "5.39.0")
 
-find_package(ECM ${ECM_VERSION} CONFIG REQUIRED)
+find_package(ECM ${KF5_VERSION} CONFIG REQUIRED)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
 include(ECMInstallIcons)
 
