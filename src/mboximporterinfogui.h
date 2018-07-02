@@ -27,7 +27,7 @@ class MBoxImporterInfoGui : public MailImporter::FilterInfoGui
 {
 public:
     explicit MBoxImporterInfoGui(MBoxImportWidget *parent);
-    ~MBoxImporterInfoGui();
+    ~MBoxImporterInfoGui() override;
 
     void setStatusMessage(const QString &status) override;
     void setFrom(const QString &from) override;
