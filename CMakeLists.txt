@@ -2,9 +2,9 @@ set(KDEPIM_VERSION_NUMBER "5.10.40")
 cmake_minimum_required(VERSION 3.5)
 project(mbox-importer VERSION ${KDEPIM_VERSION_NUMBER})
 
-set(KF5_VERSION "5.53.0")
+set(KF5_MIN_VERSION "5.53.0")
 
-find_package(ECM ${KF5_VERSION} CONFIG REQUIRED)
+find_package(ECM ${KF5_MIN_VERSION} CONFIG REQUIRED)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
 include(ECMInstallIcons)
 
@@ -48,10 +48,10 @@ set(MAILCOMMON_LIB_VERSION_LIB "5.10.40")
 set(PIMCOMMON_LIB_VERSION "5.10.40")
 
 # Find KF5 package
-find_package(KF5Config ${KF5_VERSION} CONFIG REQUIRED)
-find_package(KF5Service ${KF5_VERSION} CONFIG REQUIRED)
-find_package(KF5Crash ${KF5_VERSION} REQUIRED)
-find_package(KF5KIO ${KF5_VERSION} REQUIRED)
+find_package(KF5Config ${KF5_MIN_VERSION} CONFIG REQUIRED)
+find_package(KF5Service ${KF5_MIN_VERSION} CONFIG REQUIRED)
+find_package(KF5Crash ${KF5_MIN_VERSION} REQUIRED)
+find_package(KF5KIO ${KF5_MIN_VERSION} REQUIRED)
 
 # Find KdepimLibs Package
 find_package(KF5Akonadi ${AKONADI_VERSION} CONFIG REQUIRED)
