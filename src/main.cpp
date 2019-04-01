@@ -25,8 +25,8 @@
 #include <KCrash>
 #include <QFileDialog>
 #include <QIcon>
-#include <qcommandlineparser.h>
-#include <qcommandlineoption.h>
+#include <QCommandLineParser>
+#include <QCommandLineOption>
 #include "mboximporter-version.h"
 
 int main(int argc, char *argv[])
