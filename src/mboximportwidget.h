@@ -44,7 +44,7 @@ public:
     explicit MBoxImportWidget(QWidget *parent = nullptr);
     ~MBoxImportWidget();
     MailImporter::ImportMailsWidget *mailWidget();
-    Akonadi::Collection selectedCollection() const;
+    Q_REQUIRED_RESULT Akonadi::Collection selectedCollection() const;
     void setImportButtonEnabled(bool enabled);
 
 private Q_SLOTS:
