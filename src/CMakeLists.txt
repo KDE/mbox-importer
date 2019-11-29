@@ -20,7 +20,6 @@ target_link_libraries(mboximporter
     KF5::IdentityManagement
     KF5::MailImporterAkonadi
     KF5::MailCommon
-    KF5::Completion
     KF5::I18n
     KF5::Crash
     )
