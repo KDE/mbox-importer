@@ -37,7 +37,7 @@ MBoxMainWindow::MBoxMainWindow(const QString &filename, QWidget *parent)
     : QDialog(parent),
       mFileName(filename)
 {
-    setWindowTitle(i18n("Import mbox file"));
+    setWindowTitle(i18nc("@title:window", "Import mbox file"));
     QVBoxLayout *mainLayout = new QVBoxLayout(this);
 
     MBoxImporterKernel *kernel = new MBoxImporterKernel(this);
