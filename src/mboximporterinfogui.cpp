@@ -20,7 +20,7 @@
 #include "mboximporterinfogui.h"
 #include "mboximportwidget.h"
 
-#include "mailimporter/importmailswidget.h"
+#include <MailImporter/ImportMailsWidget>
 
 #include <KMessageBox>
 

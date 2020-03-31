@@ -23,7 +23,7 @@
 #include "mboximporterinfogui.h"
 
 #include <mailimporter/filtermbox.h>
-#include <mailimporter/importmailswidget.h>
+#include <MailImporter/ImportMailsWidget>
 #include <MailImporterAkonadi/FilterImporterAkonadi>
 
 #include <MailCommon/MailKernel>
