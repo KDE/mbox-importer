@@ -36,6 +36,7 @@ Name[sr@latin]=Uvoznik iz mboxa
 Name[sv]=Import av brevlådor
 Name[tr]=MBoxAktarıcı
 Name[uk]=Засіб імпортування MBox
+Name[x-test]=xxMBoxImporterxx
 Name[zh_CN]=MBox 导入器
 Name[zh_TW]=信箱檔匯入器
 Type=Application
