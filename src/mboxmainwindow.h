@@ -21,7 +21,7 @@ private Q_SLOTS:
     void slotImportMBox();
 
 private:
-    QString mFileName;
+    const QString mFileName;
     MBoxImportWidget *mImportWidget = nullptr;
 };
 
