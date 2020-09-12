@@ -46,6 +46,7 @@ find_package(Qt5 ${QT_REQUIRED_VERSION} CONFIG REQUIRED Gui Widgets)
 set(LIBMAILIMPORTER_VERSION "5.15.40")
 set(MAILCOMMON_LIB_VERSION "5.15.40")
 set(PIMCOMMON_LIB_VERSION "5.15.40")
+set(GRANTLEETHEME_LIB_VERSION "5.15.40")
 
 # Find KF5 package
 find_package(KF5Config ${KF5_MIN_VERSION} CONFIG REQUIRED)
@@ -53,11 +54,13 @@ find_package(KF5Service ${KF5_MIN_VERSION} CONFIG REQUIRED)
 find_package(KF5Crash ${KF5_MIN_VERSION} REQUIRED)
 find_package(KF5KIO ${KF5_MIN_VERSION} REQUIRED)
 
+
 # Find KdepimLibs Package
 find_package(KF5Akonadi ${AKONADI_VERSION} CONFIG REQUIRED)
 
 find_package(KF5MailCommon ${MAILCOMMON_LIB_VERSION} CONFIG REQUIRED)
 find_package(KF5MailImporterAkonadi ${LIBMAILIMPORTER_VERSION} CONFIG REQUIRED)
+find_package(KF5GrantleeTheme ${GRANTLEETHEME_LIB_VERSION} CONFIG REQUIRED)
 find_package(KF5PimCommonAkonadi ${PIMCOMMON_LIB_VERSION} CONFIG REQUIRED)
 include_directories(${mbox-importer_SOURCE_DIR} ${mbox-importer_BINARY_DIR})
 
