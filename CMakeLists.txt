@@ -1,4 +1,4 @@
-set(PIM_VERSION "5.15.2")
+set(PIM_VERSION "5.15.3")
 cmake_minimum_required(VERSION 3.5)
 project(mbox-importer VERSION ${PIM_VERSION})
 
@@ -28,7 +28,7 @@ include(ECMQtDeclareLoggingCategory)
 
 # Do NOT add quote
 set(KDEPIM_DEV_VERSION)
-set(RELEASE_SERVICE_VERSION "20.08.2")
+set(RELEASE_SERVICE_VERSION "20.08.3")
 # add an extra space
 if(DEFINED KDEPIM_DEV_VERSION)
     set(KDEPIM_DEV_VERSION " ${KDEPIM_DEV_VERSION}")
