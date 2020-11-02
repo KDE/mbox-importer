@@ -25,9 +25,9 @@ MBoxMainWindow::MBoxMainWindow(const QString &filename, QWidget *parent)
       mFileName(filename)
 {
     setWindowTitle(i18nc("@title:window", "Import mbox file"));
-    QVBoxLayout *mainLayout = new QVBoxLayout(this);
+    auto *mainLayout = new QVBoxLayout(this);
 
-    MBoxImporterKernel *kernel = new MBoxImporterKernel(this);
+    auto *kernel = new MBoxImporterKernel(this);
     CommonKernel->registerKernelIf(kernel);   //register KernelIf early, it is used by the Filter classes
     CommonKernel->registerSettingsIf(kernel);   //SettingsIf is used in FolderTreeWidget
 
@@ -50,9 +50,9 @@ MBoxMainWindow::~MBoxMainWindow()
 
 void MBoxMainWindow::slotImportMBox()
 {
-    MailImporter::FilterInfo *info = new MailImporter::FilterInfo();
-    MailImporter::FilterImporterAkonadi *filterImporterAkonadi = new MailImporter::FilterImporterAkonadi(info);
-    MBoxImporterInfoGui *infoGui = new MBoxImporterInfoGui(mImportWidget);
+    auto *info = new MailImporter::FilterInfo();
+    auto *filterImporterAkonadi = new MailImporter::FilterImporterAkonadi(info);
+    auto *infoGui = new MBoxImporterInfoGui(mImportWidget);
     info->setFilterInfoGui(infoGui);
     filterImporterAkonadi->setRootCollection(mImportWidget->selectedCollection());
     info->clear(); // Clear info from last time

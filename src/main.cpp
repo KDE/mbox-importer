@@ -56,7 +56,7 @@ int main(int argc, char *argv[])
     if (fileName.isEmpty()) {
         return 0;
     }
-    MBoxMainWindow *w = new MBoxMainWindow(fileName);
+    auto *w = new MBoxMainWindow(fileName);
     w->show();
     const int ret = app.exec();
     delete w;
