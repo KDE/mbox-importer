@@ -13,7 +13,7 @@ ki18n_wrap_ui(mboximporter_SRCS
     )
 
 add_executable(mboximporter ${mboximporter_SRCS})
-if (COMPILE_WITH_CMAKE_SUPPORT)
+if (COMPILE_WITH_UNITY_CMAKE_SUPPORT)
     set_target_properties(mboximporter PROPERTIES UNITY_BUILD ON)
 endif()
 target_link_libraries(mboximporter
