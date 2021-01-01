@@ -1,5 +1,5 @@
 /*
-   SPDX-FileCopyrightText: 2013-2020 Laurent Montel <montel@kde.org>
+   SPDX-FileCopyrightText: 2013-2021 Laurent Montel <montel@kde.org>
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
                          QStringLiteral(MBOXIMPORTER_VERSION),
                          i18n("MBox Import Tool"),
                          KAboutLicense::GPL_V2,
-                         i18n("Copyright © 2013-2020 MBoxImporter authors"));
+                         i18n("Copyright © 2013-2021 MBoxImporter authors"));
     aboutData.addAuthor(i18n("Laurent Montel"), i18n("Maintainer"), QStringLiteral("montel@kde.org"));
 
     QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("kmail")));
