@@ -7,9 +7,9 @@
 #include "mboximportwidget.h"
 #include "ui_mboximportwidget.h"
 
-MBoxImportWidget::MBoxImportWidget(QWidget *parent) :
-    QWidget(parent),
-    ui(new Ui::MBoxImportWidget)
+MBoxImportWidget::MBoxImportWidget(QWidget *parent)
+    : QWidget(parent)
+    , ui(new Ui::MBoxImportWidget)
 {
     ui->setupUi(this);
     connect(ui->importMails, &QAbstractButton::clicked, this, &MBoxImportWidget::importMailsClicked);
@@ -40,4 +40,3 @@ void MBoxImportWidget::setImportButtonEnabled(bool enabled)
 {
     ui->importMails->setEnabled(enabled);
 }
-

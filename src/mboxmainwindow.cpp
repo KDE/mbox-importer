@@ -5,9 +5,9 @@
 */
 
 #include "mboxmainwindow.h"
-#include "mboximportwidget.h"
-#include "mboximportkernel.h"
 #include "mboximporterinfogui.h"
+#include "mboximportkernel.h"
+#include "mboximportwidget.h"
 
 #include <MailImporter/FilterMBox>
 #include <MailImporter/ImportMailsWidget>
@@ -21,15 +21,15 @@
 #include <QVBoxLayout>
 
 MBoxMainWindow::MBoxMainWindow(const QString &filename, QWidget *parent)
-    : QDialog(parent),
-      mFileName(filename)
+    : QDialog(parent)
+    , mFileName(filename)
 {
     setWindowTitle(i18nc("@title:window", "Import mbox file"));
     auto *mainLayout = new QVBoxLayout(this);
 
     auto *kernel = new MBoxImporterKernel(this);
-    CommonKernel->registerKernelIf(kernel);   //register KernelIf early, it is used by the Filter classes
-    CommonKernel->registerSettingsIf(kernel);   //SettingsIf is used in FolderTreeWidget
+    CommonKernel->registerKernelIf(kernel); // register KernelIf early, it is used by the Filter classes
+    CommonKernel->registerSettingsIf(kernel); // SettingsIf is used in FolderTreeWidget
 
     mImportWidget = new MBoxImportWidget(this);
     mainLayout->addWidget(mImportWidget);
@@ -65,4 +65,3 @@ void MBoxMainWindow::slotImportMBox()
     mbox.importMails({mFileName});
     info->setStatusMessage(i18n("Import finished"));
 }
-

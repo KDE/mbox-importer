@@ -4,16 +4,16 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 
+#include "mboxmainwindow.h"
 #include <KAboutData>
 #include <QApplication>
-#include "mboxmainwindow.h"
 
-#include <KLocalizedString>
+#include "mboximporter-version.h"
 #include <KCrash>
+#include <KLocalizedString>
+#include <QCommandLineParser>
 #include <QFileDialog>
 #include <QIcon>
-#include <QCommandLineParser>
-#include "mboximporter-version.h"
 
 int main(int argc, char *argv[])
 {

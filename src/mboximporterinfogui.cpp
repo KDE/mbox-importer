@@ -11,12 +11,12 @@
 
 #include <KMessageBox>
 
-#include <QListWidgetItem>
 #include <QApplication>
+#include <QListWidgetItem>
 
 MBoxImporterInfoGui::MBoxImporterInfoGui(MBoxImportWidget *parent)
-    : MailImporter::FilterInfoGui(),
-      mParent(parent)
+    : MailImporter::FilterInfoGui()
+    , mParent(parent)
 {
 }
 
@@ -45,13 +45,13 @@ void MBoxImporterInfoGui::setCurrent(const QString &current)
     qApp->processEvents();
 }
 
-void  MBoxImporterInfoGui::setCurrent(int percent)
+void MBoxImporterInfoGui::setCurrent(int percent)
 {
     mParent->mailWidget()->setCurrent(percent);
     qApp->processEvents(); // Be careful - back & finish buttons disabled, so only user event that can happen is cancel/close button
 }
 
-void  MBoxImporterInfoGui::setOverall(int percent)
+void MBoxImporterInfoGui::setOverall(int percent)
 {
     mParent->mailWidget()->setOverall(percent);
 }
@@ -88,4 +88,3 @@ QWidget *MBoxImporterInfoGui::parent() const
 {
     return mParent;
 }
-

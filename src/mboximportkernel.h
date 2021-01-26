@@ -45,10 +45,10 @@ public:
     void expunge(Akonadi::Collection::Id col, bool sync) override;
 
 private:
-    KIdentityManagement::IdentityManager *mIdentityManager= nullptr;
-    MailCommon::FolderCollectionMonitor *mFolderCollectionMonitor= nullptr;
-    Akonadi::EntityTreeModel *mEntityTreeModel= nullptr;
-    Akonadi::EntityMimeTypeFilterModel *mCollectionModel= nullptr;
+    KIdentityManagement::IdentityManager *mIdentityManager = nullptr;
+    MailCommon::FolderCollectionMonitor *mFolderCollectionMonitor = nullptr;
+    Akonadi::EntityTreeModel *mEntityTreeModel = nullptr;
+    Akonadi::EntityMimeTypeFilterModel *mCollectionModel = nullptr;
 };
 
 #endif
