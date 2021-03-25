@@ -4,8 +4,7 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 
-#ifndef MBOXIMPORTWIDGET_H
-#define MBOXIMPORTWIDGET_H
+#pragma once
 
 #include <QWidget>
 
@@ -44,4 +43,3 @@ private:
     Ui::MBoxImportWidget *const ui;
 };
 
-#endif // MBOXIMPORTWIDGET_H

@@ -4,8 +4,7 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 
-#ifndef MBOXMAINWINDOW_H
-#define MBOXMAINWINDOW_H
+#pragma once
 
 #include <QDialog>
 
@@ -25,4 +24,3 @@ private:
     MBoxImportWidget *mImportWidget = nullptr;
 };
 
-#endif // MBOXMAINWINDOW_H

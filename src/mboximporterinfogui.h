@@ -4,8 +4,7 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 
-#ifndef MBOXIMPORTERINFOGUI_H
-#define MBOXIMPORTERINFOGUI_H
+#pragma once
 
 #include "filterinfogui.h"
 class MBoxImportWidget;
@@ -32,4 +31,3 @@ private:
     MBoxImportWidget *const mParent;
 };
 
-#endif /* MBOXIMPORTERINFOGUI_H */
