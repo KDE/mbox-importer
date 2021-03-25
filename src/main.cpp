@@ -58,6 +58,7 @@ int main(int argc, char *argv[])
     }
     auto *w = new MBoxMainWindow(fileName);
     w->show();
+    QObject::connect(w, &MBoxMainWindow::rejected, &app, &QApplication::quit);
     const int ret = app.exec();
     delete w;
     return ret;
