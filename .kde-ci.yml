@@ -4,7 +4,7 @@
 Dependencies:
 - 'on': ['@all']
   'require':
-    'kde/pim/akonadi' : '@latest'
-    'kde/pim/mailcommon' : '@latest'
-    'kde/pim/mailimporter' : '@latest'
-    'kde/pim/pimcommon' : '@latest'
+    'kde/pim/akonadi' : '@same'
+    'kde/pim/mailcommon' : '@same'
+    'kde/pim/mailimporter' : '@same'
+    'kde/pim/pimcommon' : '@same'
