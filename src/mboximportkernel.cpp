@@ -6,13 +6,13 @@
 
 #include "mboximportkernel.h"
 
+#include <Akonadi/ChangeRecorder>
+#include <Akonadi/EntityTreeModel>
 #include <AkonadiCore/session.h>
 #include <KIdentityManagement/kidentitymanagement/identitymanager.h>
 #include <KSharedConfig>
 #include <MailCommon/FolderCollectionMonitor>
-#include <changerecorder.h>
 #include <entitymimetypefiltermodel.h>
-#include <entitytreemodel.h>
 
 MBoxImporterKernel::MBoxImporterKernel(QObject *parent)
     : QObject(parent)
