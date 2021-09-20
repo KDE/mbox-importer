@@ -15,10 +15,6 @@
   build against older kdelibs releases.
 */
 
-#ifndef MBOXEXPORTER_VERSION_H
-#define MBOXEXPORTER_VERSION_H
-
-
+#pragma once
 #define MBOXIMPORTER_VERSION "@KDEPIM_VERSION@"
 
-#endif
