@@ -28,7 +28,7 @@ class MBoxImportWidget : public QWidget
     Q_OBJECT
 public:
     explicit MBoxImportWidget(QWidget *parent = nullptr);
-    ~MBoxImportWidget();
+    ~MBoxImportWidget() override;
     MailImporter::ImportMailsWidget *mailWidget();
     Q_REQUIRED_RESULT Akonadi::Collection selectedCollection() const;
     void setImportButtonEnabled(bool enabled);

@@ -14,7 +14,7 @@ class MBoxMainWindow : public QDialog
     Q_OBJECT
 public:
     explicit MBoxMainWindow(const QString &filename, QWidget *parent = nullptr);
-    ~MBoxMainWindow();
+    ~MBoxMainWindow() override;
 
 private Q_SLOTS:
     void slotImportMBox();
