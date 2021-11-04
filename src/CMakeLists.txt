@@ -6,6 +6,10 @@ set(mboximporter_SRCS
     mboximporterinfogui.cpp
     mboximportwidget.cpp
     mboximportkernel.cpp
+    mboxmainwindow.h
+    mboximporterinfogui.h
+    mboximportwidget.h
+    mboximportkernel.h
     )
 
 ki18n_wrap_ui(mboximporter_SRCS
