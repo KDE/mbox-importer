@@ -25,16 +25,16 @@ MBoxMainWindow::MBoxMainWindow(const QString &filename, QWidget *parent)
     , mFileName(filename)
 {
     setWindowTitle(i18nc("@title:window", "Import mbox file"));
-    auto *mainLayout = new QVBoxLayout(this);
+    auto mainLayout = new QVBoxLayout(this);
 
-    auto *kernel = new MBoxImporterKernel(this);
+    auto kernel = new MBoxImporterKernel(this);
     CommonKernel->registerKernelIf(kernel); // register KernelIf early, it is used by the Filter classes
     CommonKernel->registerSettingsIf(kernel); // SettingsIf is used in FolderTreeWidget
 
     mImportWidget = new MBoxImportWidget(this);
     mainLayout->addWidget(mImportWidget);
 
-    QDialogButtonBox *buttonBox = new QDialogButtonBox(QDialogButtonBox::Close, this);
+    auto buttonBox = new QDialogButtonBox(QDialogButtonBox::Close, this);
     connect(buttonBox, &QDialogButtonBox::rejected, this, &MBoxMainWindow::reject);
 
     buttonBox->button(QDialogButtonBox::Close)->setDefault(true);
@@ -44,15 +44,13 @@ MBoxMainWindow::MBoxMainWindow(const QString &filename, QWidget *parent)
     resize(800, 600);
 }
 
-MBoxMainWindow::~MBoxMainWindow()
-{
-}
+MBoxMainWindow::~MBoxMainWindow() = default;
 
 void MBoxMainWindow::slotImportMBox()
 {
-    auto *info = new MailImporter::FilterInfo();
-    auto *filterImporterAkonadi = new MailImporter::FilterImporterAkonadi(info);
-    auto *infoGui = new MBoxImporterInfoGui(mImportWidget);
+    auto info = new MailImporter::FilterInfo();
+    auto filterImporterAkonadi = new MailImporter::FilterImporterAkonadi(info);
+    auto infoGui = new MBoxImporterInfoGui(mImportWidget);
     info->setFilterInfoGui(infoGui);
     filterImporterAkonadi->setRootCollection(mImportWidget->selectedCollection());
     info->clear(); // Clear info from last time

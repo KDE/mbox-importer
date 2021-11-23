@@ -20,9 +20,7 @@ MBoxImporterInfoGui::MBoxImporterInfoGui(MBoxImportWidget *parent)
 {
 }
 
-MBoxImporterInfoGui::~MBoxImporterInfoGui()
-{
-}
+MBoxImporterInfoGui::~MBoxImporterInfoGui() = default;
 
 void MBoxImporterInfoGui::setStatusMessage(const QString &status)
 {
@@ -58,7 +56,7 @@ void MBoxImporterInfoGui::setOverall(int percent)
 
 void MBoxImporterInfoGui::addInfoLogEntry(const QString &log)
 {
-    auto *item = new QListWidgetItem(log);
+    auto item = new QListWidgetItem(log);
     item->setForeground(Qt::blue);
     mParent->mailWidget()->addItem(item);
     mParent->mailWidget()->setLastCurrentItem();
@@ -67,7 +65,7 @@ void MBoxImporterInfoGui::addInfoLogEntry(const QString &log)
 
 void MBoxImporterInfoGui::addErrorLogEntry(const QString &log)
 {
-    auto *item = new QListWidgetItem(log);
+    auto item = new QListWidgetItem(log);
     item->setForeground(Qt::red);
     mParent->mailWidget()->addItem(item);
     mParent->mailWidget()->setLastCurrentItem();

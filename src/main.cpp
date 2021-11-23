@@ -56,7 +56,7 @@ int main(int argc, char *argv[])
     if (fileName.isEmpty()) {
         return 0;
     }
-    auto *w = new MBoxMainWindow(fileName);
+    auto w = new MBoxMainWindow(fileName);
     w->show();
     QObject::connect(w, &MBoxMainWindow::rejected, &app, &QApplication::quit);
     const int ret = app.exec();

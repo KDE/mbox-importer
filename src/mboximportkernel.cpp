@@ -18,7 +18,7 @@ MBoxImporterKernel::MBoxImporterKernel(QObject *parent)
     : QObject(parent)
 {
     mIdentityManager = KIdentityManagement::IdentityManager::self();
-    Akonadi::Session *session = new Akonadi::Session("MBox importer Kernel ETM", this);
+    auto session = new Akonadi::Session("MBox importer Kernel ETM", this);
     mFolderCollectionMonitor = new MailCommon::FolderCollectionMonitor(session, this);
 
     mEntityTreeModel = new Akonadi::EntityTreeModel(folderCollectionMonitor(), this);
@@ -87,7 +87,7 @@ qreal MBoxImporterKernel::closeToQuotaThreshold()
 QStringList MBoxImporterKernel::customTemplates()
 {
     Q_ASSERT(false);
-    return QStringList();
+    return {};
 }
 
 bool MBoxImporterKernel::excludeImportantMailFromExpiry()
