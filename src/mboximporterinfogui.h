@@ -6,7 +6,7 @@
 
 #pragma once
 
-#include "filterinfogui.h"
+#include <mailimporter/filterinfogui.h>
 class MBoxImportWidget;
 
 class MBoxImporterInfoGui : public MailImporter::FilterInfoGui
