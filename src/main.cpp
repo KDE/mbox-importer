@@ -35,7 +35,6 @@ int main(int argc, char *argv[])
     aboutData.addAuthor(i18n("Laurent Montel"), i18n("Maintainer"), QStringLiteral("montel@kde.org"));
 
     QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("kmail")));
-    aboutData.setOrganizationDomain(QByteArray("kde.org"));
     aboutData.setProductName(QByteArray("mboximporter"));
 
     KAboutData::setApplicationData(aboutData);
