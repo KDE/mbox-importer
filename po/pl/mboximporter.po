@@ -1,0 +1,93 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-09-03 00:45+0000\n"
+"PO-Revision-Date: 2022-01-08 10:45+0100\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 22.03.70\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Łukasz Wojniłowicz"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lukasz.wojnilowicz@gmail.com"
+
+#: main.cpp:30
+#, kde-format
+msgid "MBox importer tool"
+msgstr "Narzędzie importowania skrzynek pocztowych"
+
+#: main.cpp:32
+#, kde-format
+msgid "MBox Import Tool"
+msgstr "Narzędzie importowania skrzynek pocztowych"
+
+#: main.cpp:34
+#, kde-format
+msgid "Copyright © 2013-%1 MBoxImporter authors"
+msgstr "Copyright © 2013-%1 Autorzy MBoxImporter"
+
+#: main.cpp:35
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:35
+#, kde-format
+msgid "Maintainer"
+msgstr "Opiekun"
+
+#: main.cpp:46
+#, kde-format
+msgid "URL of mbox to be imported"
+msgstr "Adres URL skrzynki pocztowej do zaimportowania"
+
+#: mboxmainwindow.cpp:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Import mbox file"
+msgstr "Zaimportuj plik skrzynki pocztowej"
+
+#: mboxmainwindow.cpp:58
+#, kde-format
+msgid "Import in progress"
+msgstr "Importowanie w trakcie"
+
+#: mboxmainwindow.cpp:64
+#, kde-format
+msgid "Import finished"
+msgstr "Ukończono importowanie"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/mboximportwidget.ui:20
+#, kde-format
+msgid "Please select the folder to import to:"
+msgstr "Wybierz, do którego katalogu importować:"
+
+#. i18n: ectx: property (text), widget (QPushButton, importMails)
+#: ui/mboximportwidget.ui:48
+#, kde-format
+msgid "Import Mails"
+msgstr "Zaimportuj wiadomości"
+
+#~ msgid "Messageviewer Header Theme Editor"
+#~ msgstr "Edytor wyglądu nagłówków przeglądarki wiadomości"
+
+#~ msgid "mbox importer"
+#~ msgstr "Importer skrzynek pocztowych"

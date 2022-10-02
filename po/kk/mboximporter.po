@@ -1,0 +1,94 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sairan Kikkarin <sairan@computer.org>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-09-03 00:45+0000\n"
+"PO-Revision-Date: 2013-09-24 04:50+0600\n"
+"Last-Translator: Sairan Kikkarin <sairan@computer.org>\n"
+"Language-Team: Kazakh <kde-i18n-doc@kde.org>\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Сайран Киккарин"
+
+#
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sairan@computer.org"
+
+#: main.cpp:30
+#, kde-format
+msgid "MBox importer tool"
+msgstr "mbox импорттау құралы"
+
+#: main.cpp:32
+#, fuzzy, kde-format
+#| msgid "MBox importer tool"
+msgid "MBox Import Tool"
+msgstr "mbox импорттау құралы"
+
+#: main.cpp:34
+#, fuzzy, kde-format
+#| msgid "Copyright © 2013 MBoxImporter authors"
+msgid "Copyright © 2013-%1 MBoxImporter authors"
+msgstr "Copyright © 2013 MBoxImporter авторлары"
+
+#: main.cpp:35
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:35
+#, kde-format
+msgid "Maintainer"
+msgstr "Жетілдірушісі"
+
+#: main.cpp:46
+#, kde-format
+msgid "URL of mbox to be imported"
+msgstr "Импорттайтын mbox-тың URL-і"
+
+#: mboxmainwindow.cpp:27
+#, fuzzy, kde-format
+#| msgid "Import mbox file"
+msgctxt "@title:window"
+msgid "Import mbox file"
+msgstr "mbox файлды импорттау"
+
+#: mboxmainwindow.cpp:58
+#, kde-format
+msgid "Import in progress"
+msgstr "Импорт ету"
+
+#: mboxmainwindow.cpp:64
+#, kde-format
+msgid "Import finished"
+msgstr "Импорт аяқталды"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/mboximportwidget.ui:20
+#, kde-format
+msgid "Please select the folder to import to:"
+msgstr "Қай қапшыққа импорттайтынын таңдаңыз:"
+
+#. i18n: ectx: property (text), widget (QPushButton, importMails)
+#: ui/mboximportwidget.ui:48
+#, kde-format
+msgid "Import Mails"
+msgstr "Хаттарды импорттау"
+
+#~ msgid "mbox importer"
+#~ msgstr "mbox импорты"

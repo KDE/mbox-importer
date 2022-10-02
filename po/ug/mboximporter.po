@@ -1,0 +1,88 @@
+# Uyghur translation for mboximporter.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Gheyret Kenji <gheyret@gmail.com>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mboximporter\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-09-03 00:45+0000\n"
+"PO-Revision-Date: 2013-09-08 07:05+0900\n"
+"Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
+"Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
+"Language: ug\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ئابدۇقادىر ئابلىز, غەيرەت كەنجى"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sahran.ug@gmail.com,  gheyret@gmail.com"
+
+#: main.cpp:30
+#, kde-format
+msgid "MBox importer tool"
+msgstr ""
+
+#: main.cpp:32
+#, kde-format
+msgid "MBox Import Tool"
+msgstr ""
+
+#: main.cpp:34
+#, kde-format
+msgid "Copyright © 2013-%1 MBoxImporter authors"
+msgstr ""
+
+#: main.cpp:35
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:35
+#, kde-format
+msgid "Maintainer"
+msgstr "مەسئۇل كىشى"
+
+#: main.cpp:46
+#, kde-format
+msgid "URL of mbox to be imported"
+msgstr ""
+
+#: mboxmainwindow.cpp:27
+#, fuzzy, kde-format
+#| msgid "Import finished"
+msgctxt "@title:window"
+msgid "Import mbox file"
+msgstr "ئىمپورت قىلىش تاماملاندى"
+
+#: mboxmainwindow.cpp:58
+#, kde-format
+msgid "Import in progress"
+msgstr "ئىمپورت قىلىۋاتىدۇ"
+
+#: mboxmainwindow.cpp:64
+#, kde-format
+msgid "Import finished"
+msgstr "ئىمپورت قىلىش تاماملاندى"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/mboximportwidget.ui:20
+#, kde-format
+msgid "Please select the folder to import to:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, importMails)
+#: ui/mboximportwidget.ui:48
+#, fuzzy, kde-format
+#| msgid "Import finished"
+msgid "Import Mails"
+msgstr "ئىمپورت قىلىش تاماملاندى"

@@ -1,0 +1,97 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Volkan Gezer <volkangezer@gmail.com>, 2013, 2021.
+# Kaan Ozdincer <kaanozdincer@gmail.com>, 2014.
+# Emir SARI <emir_sari@icloud.com>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdepim-kde4\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-09-03 00:45+0000\n"
+"PO-Revision-Date: 2022-04-16 18:49+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 21.12.3\n"
+"(http: //www.transifex.com/projects/p/kdepim-k-tr/language/tr/)\n"
+"X-POOTLE-MTIME: 1413102203.000000\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Volkan Gezer"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "volkangezer@gmail.com"
+
+#: main.cpp:30
+#, kde-format
+msgid "MBox importer tool"
+msgstr "MBox içe aktarma aracı"
+
+#: main.cpp:32
+#, kde-format
+msgid "MBox Import Tool"
+msgstr "MBox İçe Aktarma Aracı"
+
+#: main.cpp:34
+#, kde-format
+msgid "Copyright © 2013-%1 MBoxImporter authors"
+msgstr "Telif Hakkı © 2013-%1 MBoxImporter yazarları"
+
+#: main.cpp:35
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:35
+#, kde-format
+msgid "Maintainer"
+msgstr "Projeyi sürdüren"
+
+#: main.cpp:46
+#, kde-format
+msgid "URL of mbox to be imported"
+msgstr "İçe aktarılacak mbox adresi"
+
+#: mboxmainwindow.cpp:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Import mbox file"
+msgstr "Mbox dosyası içe aktar"
+
+#: mboxmainwindow.cpp:58
+#, kde-format
+msgid "Import in progress"
+msgstr "İçe aktarma sürüyor"
+
+#: mboxmainwindow.cpp:64
+#, kde-format
+msgid "Import finished"
+msgstr "İçe aktarma tamamlandı"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/mboximportwidget.ui:20
+#, kde-format
+msgid "Please select the folder to import to:"
+msgstr "Lütfen içe aktarılacak klasörü seçin:"
+
+#. i18n: ectx: property (text), widget (QPushButton, importMails)
+#: ui/mboximportwidget.ui:48
+#, kde-format
+msgid "Import Mails"
+msgstr "Postayı İçe Aktar"
+
+#~ msgid "Messageviewer Header Theme Editor"
+#~ msgstr "Mesaj Görüntüleyici Başlık Tema Düzenleyicisi"
+
+#~ msgid "mbox importer"
+#~ msgstr "mbox içe aktarıcı"

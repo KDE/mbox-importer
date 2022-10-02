@@ -1,0 +1,90 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Marek Laane <bald@smail.ee>, 2014, 2016, 2019, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-09-03 00:45+0000\n"
+"PO-Revision-Date: 2020-01-02 11:44+0200\n"
+"Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
+"Language-Team: Estonian <kde-et@lists.linux.ee>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 19.08.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Marek Laane"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "qiilaq69@gmail.com"
+
+#: main.cpp:30
+#, kde-format
+msgid "MBox importer tool"
+msgstr "MBoxi importimise tööriist"
+
+#: main.cpp:32
+#, kde-format
+msgid "MBox Import Tool"
+msgstr "MBoxi importimise tööriist"
+
+#: main.cpp:34
+#, fuzzy, kde-format
+#| msgid "Copyright © 2013-2020 MBoxImporter authors"
+msgid "Copyright © 2013-%1 MBoxImporter authors"
+msgstr "Autoriõigus © 2013-2020: MBoxImporteri autorid"
+
+#: main.cpp:35
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:35
+#, kde-format
+msgid "Maintainer"
+msgstr "Hooldaja"
+
+#: main.cpp:46
+#, kde-format
+msgid "URL of mbox to be imported"
+msgstr "Imporditava MBoxi URL"
+
+#: mboxmainwindow.cpp:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Import mbox file"
+msgstr "MBoxi faili import"
+
+#: mboxmainwindow.cpp:58
+#, kde-format
+msgid "Import in progress"
+msgstr "Import käib"
+
+#: mboxmainwindow.cpp:64
+#, kde-format
+msgid "Import finished"
+msgstr "Import on lõpetatud"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/mboximportwidget.ui:20
+#, kde-format
+msgid "Please select the folder to import to:"
+msgstr "Kaust, kuhu kirjad importida:"
+
+#. i18n: ectx: property (text), widget (QPushButton, importMails)
+#: ui/mboximportwidget.ui:48
+#, kde-format
+msgid "Import Mails"
+msgstr "Impordi kirjad"
+
+#~ msgid "mbox importer"
+#~ msgstr "MBoxi importija"

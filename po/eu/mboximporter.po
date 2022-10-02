@@ -1,0 +1,89 @@
+# Translation for mboximporter.po to Euskara/Basque (eu).
+# Copyright (C) 2021-2022, This file is copyright:
+# This file is distributed under the same license as the mbox-importer package.
+# KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>.
+#
+# Translators:
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: mbox-importer\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-09-03 00:45+0000\n"
+"PO-Revision-Date: 2022-07-25 16:46+0200\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.04.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Iñigo Salvador Azurmendi"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "xalba@ni.eus"
+
+#: main.cpp:30
+#, kde-format
+msgid "MBox importer tool"
+msgstr "MBox inportatzeko tresna"
+
+#: main.cpp:32
+#, kde-format
+msgid "MBox Import Tool"
+msgstr "MBox inportatzeko tresna"
+
+#: main.cpp:34
+#, kde-format
+msgid "Copyright © 2013-%1 MBoxImporter authors"
+msgstr "Copyright © 2013-%1 MBoxImporter-ren egileak"
+
+#: main.cpp:35
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:35
+#, kde-format
+msgid "Maintainer"
+msgstr "Arduraduna"
+
+#: main.cpp:46
+#, kde-format
+msgid "URL of mbox to be imported"
+msgstr "Inportatu beharreko mbox-en URLa"
+
+#: mboxmainwindow.cpp:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Import mbox file"
+msgstr "Inportatu mbox fitxategia"
+
+#: mboxmainwindow.cpp:58
+#, kde-format
+msgid "Import in progress"
+msgstr "Inportatzen ari da"
+
+#: mboxmainwindow.cpp:64
+#, kde-format
+msgid "Import finished"
+msgstr "Inportatzea amaitu da"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/mboximportwidget.ui:20
+#, kde-format
+msgid "Please select the folder to import to:"
+msgstr "Mesedez, hautatu zein karpetara inportatu behar den:"
+
+#. i18n: ectx: property (text), widget (QPushButton, importMails)
+#: ui/mboximportwidget.ui:48
+#, kde-format
+msgid "Import Mails"
+msgstr "Inportatu posta"
