@@ -42,4 +42,3 @@ Q_SIGNALS:
 private:
     Ui::MBoxImportWidget *const ui;
 };
-

@@ -23,4 +23,3 @@ private:
     const QString mFileName;
     MBoxImportWidget *mImportWidget = nullptr;
 };
-
