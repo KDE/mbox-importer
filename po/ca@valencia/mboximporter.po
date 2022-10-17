@@ -59,7 +59,7 @@ msgstr "Mantenidor"
 #: main.cpp:46
 #, kde-format
 msgid "URL of mbox to be imported"
-msgstr "URL del mbox que s'importarà"
+msgstr "URL del mbox que s'ha d'importar"
 
 #: mboxmainwindow.cpp:27
 #, kde-format
