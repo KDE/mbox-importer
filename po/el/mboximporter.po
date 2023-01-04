@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the mbox-importer package.
 #
-# Stelios <sstavra@gmail.com>, 2020, 2021.
+# Stelios <sstavra@gmail.com>, 2020, 2021, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: mbox-importer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-09-03 00:45+0000\n"
-"PO-Revision-Date: 2021-06-30 09:59+0300\n"
+"PO-Revision-Date: 2023-01-03 09:32+0200\n"
 "Last-Translator: Stelios <sstavra@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
 "Language: el\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 20.04.2\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -38,10 +38,9 @@ msgid "MBox Import Tool"
 msgstr "Εργαλείο εισαγωγής εισερχομένων"
 
 #: main.cpp:34
-#, fuzzy, kde-format
-#| msgid "Copyright © 2013-2021 MBoxImporter authors"
+#, kde-format
 msgid "Copyright © 2013-%1 MBoxImporter authors"
-msgstr "Copyright © 2013-2021 Οι συγγραφείς του MBoxImporter"
+msgstr "Copyright © 2013-%1 Οι συγγραφείς του MBoxImporter"
 
 #: main.cpp:35
 #, kde-format
