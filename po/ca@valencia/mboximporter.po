@@ -65,7 +65,7 @@ msgstr "URL del mbox que s'ha d'importar"
 #, kde-format
 msgctxt "@title:window"
 msgid "Import mbox file"
-msgstr "Importació d'un fitxer mbox"
+msgstr "Importeu un fitxer mbox"
 
 #: mboxmainwindow.cpp:58
 #, kde-format
