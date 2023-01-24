@@ -26,8 +26,8 @@ target_link_libraries(mboximporter
     KF5::IdentityManagement
     KF5::MailImporterAkonadi
     KF5::MailCommon
-    KF5::I18n
-    KF5::Crash
+    KF${KF_MAJOR_VERSION}::I18n
+    KF${KF_MAJOR_VERSION}::Crash
     )
 
 install(TARGETS mboximporter  ${KDE_INSTALL_TARGETS_DEFAULT_ARGS} )
