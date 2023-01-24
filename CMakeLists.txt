@@ -51,7 +51,6 @@ if (QT_MAJOR_VERSION STREQUAL "6")
     set(KF_MIN_VERSION "5.240.0")
     set(KF_MAJOR_VERSION "6")
 else()
-    set(KF_MIN_VERSION "5.100.0")
     set(KF_MAJOR_VERSION "5")
 endif()
 find_package(Qt${QT_MAJOR_VERSION} ${QT_REQUIRED_VERSION} CONFIG REQUIRED Gui Widgets)
@@ -74,7 +73,7 @@ find_package(KF5MailImporterAkonadi ${LIBMAILIMPORTER_VERSION} CONFIG REQUIRED)
 find_package(KF5PimCommonAkonadi ${PIMCOMMON_LIB_VERSION} CONFIG REQUIRED)
 include_directories(${mbox-importer_SOURCE_DIR} ${mbox-importer_BINARY_DIR})
 
-ecm_set_disabled_deprecation_versions(QT 5.15.2  KF 5.102.0)
+ecm_set_disabled_deprecation_versions(QT 6.4  KF 5.102.0)
 
 
 option(USE_UNITY_CMAKE_SUPPORT "Use UNITY cmake support (speedup compile time)" OFF)
