@@ -57,6 +57,7 @@ find_package(Qt${QT_MAJOR_VERSION} ${QT_REQUIRED_VERSION} CONFIG REQUIRED Gui Wi
 set(LIBMAILIMPORTER_VERSION "5.22.40")
 set(MAILCOMMON_LIB_VERSION "5.22.40")
 set(PIMCOMMON_LIB_VERSION "5.22.40")
+set(IDENTITYMANAGEMENT_LIB_VERSION "5.22.40")
 
 # Find KF5 package
 find_package(KF${KF_MAJOR_VERSION}Config ${KF_MIN_VERSION} CONFIG REQUIRED)
@@ -71,6 +72,8 @@ find_package(KF5Akonadi ${AKONADI_VERSION} CONFIG REQUIRED)
 find_package(KF5MailCommon ${MAILCOMMON_LIB_VERSION} CONFIG REQUIRED)
 find_package(KF5MailImporterAkonadi ${LIBMAILIMPORTER_VERSION} CONFIG REQUIRED)
 find_package(KF5PimCommonAkonadi ${PIMCOMMON_LIB_VERSION} CONFIG REQUIRED)
+find_package(KPim${KF_MAJOR_VERSION}IdentityManagement ${IDENTITYMANAGEMENT_LIB_VERSION} CONFIG REQUIRED)
+
 include_directories(${mbox-importer_SOURCE_DIR} ${mbox-importer_BINARY_DIR})
 
 ecm_set_disabled_deprecation_versions(QT 6.4  KF 5.103.0)

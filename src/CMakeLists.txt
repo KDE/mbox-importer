@@ -23,7 +23,7 @@ endif()
 target_link_libraries(mboximporter
     PRIVATE
     KF5::AkonadiCore
-    KF5::IdentityManagement
+    KPim${KF_MAJOR_VERSION}::IdentityManagement
     KF5::MailImporterAkonadi
     KF5::MailCommon
     KF${KF_MAJOR_VERSION}::I18n
