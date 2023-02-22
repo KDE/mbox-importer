@@ -24,8 +24,8 @@ target_link_libraries(mboximporter
     PRIVATE
     KF5::AkonadiCore
     KPim${KF_MAJOR_VERSION}::IdentityManagement
-    KF5::MailImporterAkonadi
-    KF5::MailCommon
+    KPim${KF_MAJOR_VERSION}::MailImporterAkonadi
+    KPim${KF_MAJOR_VERSION}::MailCommon
     KF${KF_MAJOR_VERSION}::I18n
     KF${KF_MAJOR_VERSION}::Crash
     )
