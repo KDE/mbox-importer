@@ -22,7 +22,7 @@ if (COMPILE_WITH_UNITY_CMAKE_SUPPORT)
 endif()
 target_link_libraries(mboximporter
     PRIVATE
-    KF5::AkonadiCore
+    KPim${KF_MAJOR_VERSION}::AkonadiCore
     KPim${KF_MAJOR_VERSION}::IdentityManagement
     KPim${KF_MAJOR_VERSION}::MailImporterAkonadi
     KPim${KF_MAJOR_VERSION}::MailCommon
