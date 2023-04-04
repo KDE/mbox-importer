@@ -22,12 +22,12 @@ if (COMPILE_WITH_UNITY_CMAKE_SUPPORT)
 endif()
 target_link_libraries(mboximporter
     PRIVATE
-    KPim${KF_MAJOR_VERSION}::AkonadiCore
-    KPim${KF_MAJOR_VERSION}::IdentityManagement
-    KPim${KF_MAJOR_VERSION}::MailImporterAkonadi
-    KPim${KF_MAJOR_VERSION}::MailCommon
-    KF${KF_MAJOR_VERSION}::I18n
-    KF${KF_MAJOR_VERSION}::Crash
+    KPim6::AkonadiCore
+    KPim6::IdentityManagement
+    KPim6::MailImporterAkonadi
+    KPim6::MailCommon
+    KF6::I18n
+    KF6::Crash
     )
 
 install(TARGETS mboximporter  ${KDE_INSTALL_TARGETS_DEFAULT_ARGS} )
