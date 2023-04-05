@@ -10,13 +10,5 @@ Dependencies:
     'pim/mailimporter' : '@same'
     'pim/pimcommon' : '@same'
 
-- 'on': ['Linux/Qt6', 'FreeBSD/Qt6', 'Windows/Qt6']
-  'require':
-    'frameworks/extra-cmake-modules': '@latest-kf6'
-    'pim/akonadi' : '@latest-kf6'
-    'pim/mailcommon' : '@latest-kf6'
-    'pim/mailimporter' : '@latest-kf6'
-    'pim/pimcommon' : '@latest-kf6'
-
 Options:
   require-passing-tests-on: [ 'Linux', 'FreeBSD']
