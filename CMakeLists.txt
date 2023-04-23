@@ -68,7 +68,7 @@ find_package(KPim6IdentityManagement ${IDENTITYMANAGEMENT_LIB_VERSION} CONFIG RE
 
 include_directories(${mbox-importer_SOURCE_DIR} ${mbox-importer_BINARY_DIR})
 
-ecm_set_disabled_deprecation_versions(QT 6.4  KF 5.240.0)
+ecm_set_disabled_deprecation_versions(QT 6.5  KF 5.240.0)
 
 
 option(USE_UNITY_CMAKE_SUPPORT "Use UNITY cmake support (speedup compile time)" OFF)
