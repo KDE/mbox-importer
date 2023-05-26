@@ -23,7 +23,7 @@ endif()
 target_link_libraries(mboximporter
     PRIVATE
     KPim6::AkonadiCore
-    KPim6::IdentityManagement
+    KPim6::IdentityManagementCore
     KPim6::MailImporterAkonadi
     KPim6::MailCommon
     KF6::I18n

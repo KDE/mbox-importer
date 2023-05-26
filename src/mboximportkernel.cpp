@@ -10,14 +10,14 @@
 #include <Akonadi/EntityMimeTypeFilterModel>
 #include <Akonadi/EntityTreeModel>
 #include <Akonadi/Session>
-#include <KIdentityManagement/IdentityManager>
+#include <KIdentityManagementCore/IdentityManager>
 #include <KSharedConfig>
 #include <MailCommon/FolderCollectionMonitor>
 
 MBoxImporterKernel::MBoxImporterKernel(QObject *parent)
     : QObject(parent)
 {
-    mIdentityManager = KIdentityManagement::IdentityManager::self();
+    mIdentityManager = KIdentityManagementCore::IdentityManager::self();
     auto session = new Akonadi::Session("MBox importer Kernel ETM", this);
     mFolderCollectionMonitor = new MailCommon::FolderCollectionMonitor(session, this);
 
@@ -33,7 +33,7 @@ MBoxImporterKernel::MBoxImporterKernel(QObject *parent)
     mCollectionModel->setSortCaseSensitivity(Qt::CaseInsensitive);
 }
 
-KIdentityManagement::IdentityManager *MBoxImporterKernel::identityManager()
+KIdentityManagementCore::IdentityManager *MBoxImporterKernel::identityManager()
 {
     return mIdentityManager;
 }
