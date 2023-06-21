@@ -63,3 +63,5 @@ void MBoxMainWindow::slotImportMBox()
     mbox.importMails({mFileName});
     info->setStatusMessage(i18n("Import finished"));
 }
+
+#include "moc_mboxmainwindow.cpp"
