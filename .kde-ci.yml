@@ -5,9 +5,9 @@ Dependencies:
 - 'on': ['Linux', 'FreeBSD', 'Windows']
   'require':
     'frameworks/extra-cmake-modules': '@latest-kf6'
-    'pim/akonadi' : '@latest-kf6'
-    'pim/mailcommon' : '@latest-kf6'
-    'pim/mailimporter' : '@latest-kf6'
+    'pim/akonadi' : '@same'
+    'pim/mailcommon' : '@same'
+    'pim/mailimporter' : '@same'
 
 Options:
   require-passing-tests-on: [ 'Linux', 'FreeBSD']
