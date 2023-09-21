@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-03 00:45+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2022-01-04 20:23+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -27,32 +27,32 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "stefan.asserhall@bredband.net"
 
-#: main.cpp:30
+#: main.cpp:26
 #, kde-format
 msgid "MBox importer tool"
 msgstr "Importverktyg för brevlådor"
 
-#: main.cpp:32
+#: main.cpp:28
 #, kde-format
 msgid "MBox Import Tool"
 msgstr "Importverktyg för brevlådor"
 
-#: main.cpp:34
+#: main.cpp:30
 #, kde-format
 msgid "Copyright © 2013-%1 MBoxImporter authors"
 msgstr "Copyright © 2013-%1 Upphovsmännen till Import av brevlåda"
 
-#: main.cpp:35
+#: main.cpp:31
 #, kde-format
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:35
+#: main.cpp:31
 #, kde-format
 msgid "Maintainer"
 msgstr "Underhåll"
 
-#: main.cpp:46
+#: main.cpp:42
 #, kde-format
 msgid "URL of mbox to be imported"
 msgstr "Webbadress till brevlådan att importera"

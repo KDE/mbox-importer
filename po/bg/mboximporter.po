@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-03 00:45+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2022-06-19 18:11+0200\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
@@ -28,32 +28,32 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "yasen@lindeas.com"
 
-#: main.cpp:30
+#: main.cpp:26
 #, kde-format
 msgid "MBox importer tool"
 msgstr "Инструмент за импортиране на MBox"
 
-#: main.cpp:32
+#: main.cpp:28
 #, kde-format
 msgid "MBox Import Tool"
 msgstr "Инструмент за импортиране на MBox"
 
-#: main.cpp:34
+#: main.cpp:30
 #, kde-format
 msgid "Copyright © 2013-%1 MBoxImporter authors"
 msgstr "Copyright © 2013-%1 MBoxImporter authors"
 
-#: main.cpp:35
+#: main.cpp:31
 #, kde-format
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:35
+#: main.cpp:31
 #, kde-format
 msgid "Maintainer"
 msgstr "Поддръжка"
 
-#: main.cpp:46
+#: main.cpp:42
 #, kde-format
 msgid "URL of mbox to be imported"
 msgstr "URL-адрес на mbox за внасяне"
