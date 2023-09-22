@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mboximporter\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-02 03:18+0100\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2018-01-06 09:21+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
@@ -28,51 +28,51 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "caslav.ilic@gmx.net"
 
-#: main.cpp:41
+#: main.cpp:26
 #, kde-format
 msgid "MBox importer tool"
 msgstr "Алатка за увоз мбокса"
 
-#: main.cpp:43
+#: main.cpp:28
 #, kde-format
 msgid "MBox Import Tool"
 msgstr "Алатка за увоз мбокса"
 
-#: main.cpp:45
+#: main.cpp:30
 #, fuzzy, kde-format
 #| msgid "Copyright © 2013-2018 MBoxImporter authors"
-msgid "Copyright © 2013-2020 MBoxImporter authors"
+msgid "Copyright © 2013-%1 MBoxImporter authors"
 msgstr "© 2013–2018, аутори увоза мбокса"
 
-#: main.cpp:46
+#: main.cpp:31
 #, kde-format
 msgid "Laurent Montel"
 msgstr "Лорен Монтел"
 
-#: main.cpp:46
+#: main.cpp:31
 #, kde-format
 msgid "Maintainer"
 msgstr "Одржавалац"
 
-#: main.cpp:58
+#: main.cpp:42
 #, kde-format
 msgid "URL of mbox to be imported"
 msgstr "УРЛ мбокса за увоз"
 
 # >> @title:window
-#: mboxmainwindow.cpp:40
+#: mboxmainwindow.cpp:27
 #, fuzzy, kde-format
 #| msgid "Import mbox file"
 msgctxt "@title:window"
 msgid "Import mbox file"
 msgstr "Увоз мбокс фајла"
 
-#: mboxmainwindow.cpp:73
+#: mboxmainwindow.cpp:58
 #, kde-format
 msgid "Import in progress"
 msgstr "Увоз у току"
 
-#: mboxmainwindow.cpp:79
+#: mboxmainwindow.cpp:64
 #, kde-format
 msgid "Import finished"
 msgstr "Увоз завршен"
