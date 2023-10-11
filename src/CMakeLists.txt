@@ -1,4 +1,4 @@
-configure_file(mboximporter-version.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/mboximporter-version.h @ONLY)
+configure_file(mboximporter-version.h.in ${CMAKE_CURRENT_BINARY_DIR}/mboximporter-version.h @ONLY)
 
 set(mboximporter_SRCS
     main.cpp
