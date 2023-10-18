@@ -66,6 +66,7 @@ find_package(KPim6IdentityManagementCore ${IDENTITYMANAGEMENT_LIB_VERSION} CONFI
 
 include_directories(${mbox-importer_SOURCE_DIR} ${mbox-importer_BINARY_DIR})
 
+add_definitions(-DQT_NO_CONTEXTLESS_CONNECT)
 ecm_set_disabled_deprecation_versions(QT 6.5  KF 5.240.0)
 
 
