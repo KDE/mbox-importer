@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
     QApplication app(argc, argv);
     app.setDesktopFileName(QStringLiteral("org.kde.mboximporter"));
     KCrash::initialize();
-    KLocalizedString::setApplicationDomain("mboximporter");
+    KLocalizedString::setApplicationDomain(QByteArrayLiteral("mboximporter"));
 
     KAboutData aboutData(QStringLiteral("mboximporter"),
                          i18n("MBox importer tool"),
