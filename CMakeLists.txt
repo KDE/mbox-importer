@@ -1,4 +1,4 @@
-set(PIM_VERSION "6.0.0")
+set(PIM_VERSION "6.0.1")
 cmake_minimum_required(VERSION 3.16 FATAL_ERROR)
 project(mbox-importer VERSION ${PIM_VERSION})
 
@@ -32,7 +32,7 @@ include(ECMDeprecationSettings)
 
 # Do NOT add quote
 set(KDEPIM_DEV_VERSION)
-set(RELEASE_SERVICE_VERSION "24.02.0")
+set(RELEASE_SERVICE_VERSION "24.02.1")
 # add an extra space
 if(DEFINED KDEPIM_DEV_VERSION)
     set(KDEPIM_DEV_VERSION " ${KDEPIM_DEV_VERSION}")
