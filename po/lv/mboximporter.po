@@ -1,0 +1,87 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the mbox-importer package.
+#
+# SPDX-FileCopyrightText: 2024 Toms Trasuns <toms.trasuns@posteo.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: mbox-importer\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
+"PO-Revision-Date: 2024-03-05 21:11+0200\n"
+"Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
+"Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Toms Trasūns"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "toms.trasuns@posteo.net"
+
+#: main.cpp:26
+#, kde-format
+msgid "MBox importer tool"
+msgstr "„MBox“ importēšanas rīks"
+
+#: main.cpp:28
+#, kde-format
+msgid "MBox Import Tool"
+msgstr "„MBox“ importēšanas rīks"
+
+#: main.cpp:30
+#, kde-format
+msgid "Copyright © 2013-%1 MBoxImporter authors"
+msgstr "Autortiesības © 2013—%1 „MBoxImporter“ autori"
+
+#: main.cpp:31
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:31
+#, kde-format
+msgid "Maintainer"
+msgstr "Uzturētājs"
+
+#: main.cpp:42
+#, kde-format
+msgid "URL of mbox to be imported"
+msgstr "URL adrese „mbox“ importēšanai"
+
+#: mboxmainwindow.cpp:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Import mbox file"
+msgstr "Importēt „mbox“ datni"
+
+#: mboxmainwindow.cpp:58
+#, kde-format
+msgid "Import in progress"
+msgstr "Notiek importēšana"
+
+#: mboxmainwindow.cpp:64
+#, kde-format
+msgid "Import finished"
+msgstr "Importēšana ir pabeigta"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/mboximportwidget.ui:20
+#, kde-format
+msgid "Please select the folder to import to:"
+msgstr "Atlasiet mapi, uz kuru importēt:"
+
+#. i18n: ectx: property (text), widget (QPushButton, importMails)
+#: ui/mboximportwidget.ui:48
+#, kde-format
+msgid "Import Mails"
+msgstr "Importēt e-pasta vēstules"
