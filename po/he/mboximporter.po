@@ -1,0 +1,86 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the mbox-importer package.
+#
+# SPDX-FileCopyrightText: 2024 Yaron Shahrabani <sh.yaron@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: mbox-importer\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
+"PO-Revision-Date: 2024-03-07 06:57+0200\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: צוות התרגום של KDE ישראל\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 23.08.4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "צוות התרגום של KDE ישראל"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-l10n-he@kde.org"
+
+#: main.cpp:26
+#, kde-format
+msgid "MBox importer tool"
+msgstr "כלי ייבוא MBox"
+
+#: main.cpp:28
+#, kde-format
+msgid "MBox Import Tool"
+msgstr "כלי ייבוא MBox"
+
+#: main.cpp:30
+#, kde-format
+msgid "Copyright © 2013-%1 MBoxImporter authors"
+msgstr "כל הזכויות שמורות © 2013‏-%1 ליוצרי MBoxImporter"
+
+#: main.cpp:31
+#, kde-format
+msgid "Laurent Montel"
+msgstr "לורנט מונטל"
+
+#: main.cpp:31
+#, kde-format
+msgid "Maintainer"
+msgstr "מתחזק"
+
+#: main.cpp:42
+#, kde-format
+msgid "URL of mbox to be imported"
+msgstr "כתובת ה־mbox לייבוא"
+
+#: mboxmainwindow.cpp:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Import mbox file"
+msgstr "ייבוא קובץ mbox"
+
+#: mboxmainwindow.cpp:58
+#, kde-format
+msgid "Import in progress"
+msgstr "מתבצע ייבוא"
+
+#: mboxmainwindow.cpp:64
+#, kde-format
+msgid "Import finished"
+msgstr "הייבוא הסתיים"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/mboximportwidget.ui:20
+#, kde-format
+msgid "Please select the folder to import to:"
+msgstr "נא לבחור את התיקייה שאליה לייבא:"
+
+#. i18n: ectx: property (text), widget (QPushButton, importMails)
+#: ui/mboximportwidget.ui:48
+#, kde-format
+msgid "Import Mails"
+msgstr "ייבוא הודעות דוא״ל"
