@@ -59,4 +59,3 @@ MimeType=application/mbox;
 Categories=Qt;KDE;Office;Network;Email;
 StartupNotify=true
 Hidden=true
-X-DBUS-ServiceName=org.kde.mboximporter
