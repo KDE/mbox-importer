@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mbox-importer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-21 00:45+0000\n"
+"POT-Creation-Date: 2024-05-16 00:39+0000\n"
 "PO-Revision-Date: 2022-01-04 10:27+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -47,7 +47,9 @@ msgid "Copyright © 2013-%1 MBoxImporter authors"
 msgstr "Copyright © 2013-%1, els autors de MBoxImporter"
 
 #: main.cpp:31
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Laurent Montel"
+msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
