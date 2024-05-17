@@ -43,8 +43,7 @@ msgid "Copyright © 2013-%1 MBoxImporter authors"
 msgstr ""
 
 #: main.cpp:31
-#, fuzzy, kde-format
-#| msgid "Laurent Montel"
+#, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
