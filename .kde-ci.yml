@@ -5,6 +5,7 @@ Dependencies:
 - 'on': ['Linux', 'FreeBSD', 'Windows']
   'require':
     'frameworks/extra-cmake-modules': '@latest-kf6'
+    'frameworks/kiconthemes': '@latest-kf6'
     'pim/akonadi' : '@same'
     'pim/mailcommon' : '@same'
     'pim/mailimporter' : '@same'

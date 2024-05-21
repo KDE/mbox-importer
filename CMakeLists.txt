@@ -56,7 +56,7 @@ find_package(KF6Config ${KF_MIN_VERSION} CONFIG REQUIRED)
 find_package(KF6Service ${KF_MIN_VERSION} CONFIG REQUIRED)
 find_package(KF6Crash ${KF_MIN_VERSION} REQUIRED)
 find_package(KF6KIO ${KF_MIN_VERSION} REQUIRED)
-
+find_package(KF6IconThemes ${KF_MIN_VERSION} QUIET)
 
 # Find KdepimLibs Package
 find_package(KPim6Akonadi ${AKONADI_VERSION} CONFIG REQUIRED)

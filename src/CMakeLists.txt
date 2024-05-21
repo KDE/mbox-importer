@@ -29,6 +29,9 @@ target_link_libraries(mboximporter
     KF6::I18n
     KF6::Crash
     )
+if(TARGET KF6::IconThemes)
+    target_link_libraries(mboximporter PRIVATE KF6::IconThemes)
+endif()
 
 install(TARGETS mboximporter  ${KDE_INSTALL_TARGETS_DEFAULT_ARGS} )
 
