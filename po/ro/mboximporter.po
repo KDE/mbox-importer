@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-16 00:39+0000\n"
+"POT-Creation-Date: 2024-05-22 00:40+0000\n"
 "PO-Revision-Date: 2022-02-06 17:12+0000\n"
 "Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
 "Language-Team: Romanian\n"
@@ -28,34 +28,34 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "arthur.titeica@gmail.com"
 
-#: main.cpp:26
+#: main.cpp:46
 #, kde-format
 msgid "MBox importer tool"
 msgstr "Unealtă pentru importul MBox"
 
-#: main.cpp:28
+#: main.cpp:48
 #, kde-format
 msgid "MBox Import Tool"
 msgstr "Unealtă pentru importul MBox"
 
-#: main.cpp:30
+#: main.cpp:50
 #, kde-format
 msgid "Copyright © 2013-%1 MBoxImporter authors"
 msgstr "Drept de autor © 2013-%1 Autorii MBoxImporter"
 
-#: main.cpp:31
+#: main.cpp:51
 #, fuzzy, kde-format
 #| msgid "Laurent Montel"
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:31
+#: main.cpp:51
 #, kde-format
 msgid "Maintainer"
 msgstr "Responsabil"
 
-#: main.cpp:42
+#: main.cpp:62
 #, kde-format
 msgid "URL of mbox to be imported"
 msgstr "URL-ul fișierului mbox de importat"
