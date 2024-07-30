@@ -4,30 +4,31 @@
 #
 # André Marcelo Alvarenga <alvarenga@kde.org>, 2013, 2014, 2015, 2016, 2018, 2019, 2020.
 # Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2019, 2021, 2022.
+# SPDX-FileCopyrightText: 2024 Geraldo Simiao <geraldosimiao@fedoraproject.org>
 msgid ""
 msgstr ""
 "Project-Id-Version: mboximporter\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-22 00:40+0000\n"
-"PO-Revision-Date: 2022-01-04 11:21-0300\n"
-"Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
-"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"PO-Revision-Date: 2024-07-29 10:32-0300\n"
+"Last-Translator: Geraldo Simiao <geraldosimiao@fedoraproject.org>\n"
+"Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 20.04.2\n"
+"X-Generator: Lokalize 24.05.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "André Marcelo Alvarenga"
+msgstr "André Marcelo Alvarenga, Geraldo Simião"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "alvarenga@kde.org"
+msgstr "alvarenga@kde.org, geraldosimiao@fedoraproject.org"
 
 #: main.cpp:46
 #, kde-format
@@ -45,8 +46,7 @@ msgid "Copyright © 2013-%1 MBoxImporter authors"
 msgstr "Copyright © 2013-%1 Os autores do MBoxImporter"
 
 #: main.cpp:51
-#, fuzzy, kde-format
-#| msgid "Laurent Montel"
+#, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
