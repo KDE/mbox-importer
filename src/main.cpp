@@ -32,7 +32,6 @@ int main(int argc, char *argv[])
 #endif
     QApplication app(argc, argv);
     app.setDesktopFileName(QStringLiteral("org.kde.mboximporter"));
-    KCrash::initialize();
 #if HAVE_STYLE_MANAGER
     KStyleManager::initStyle();
 #else // !HAVE_STYLE_MANAGER
@@ -54,6 +53,7 @@ int main(int argc, char *argv[])
     aboutData.setProductName(QByteArray("mboximporter"));
 
     KAboutData::setApplicationData(aboutData);
+    KCrash::initialize();
 
     QString fileName;
     QCommandLineParser parser;
