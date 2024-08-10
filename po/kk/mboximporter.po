@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-22 00:40+0000\n"
+"POT-Creation-Date: 2024-08-10 02:40+0000\n"
 "PO-Revision-Date: 2013-09-24 04:50+0600\n"
 "Last-Translator: Sairan Kikkarin <sairan@computer.org>\n"
 "Language-Team: Kazakh <kde-i18n-doc@kde.org>\n"
@@ -29,31 +29,31 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sairan@computer.org"
 
-#: main.cpp:46
+#: main.cpp:45
 #, kde-format
 msgid "MBox importer tool"
 msgstr "mbox импорттау құралы"
 
-#: main.cpp:48
+#: main.cpp:47
 #, fuzzy, kde-format
 #| msgid "MBox importer tool"
 msgid "MBox Import Tool"
 msgstr "mbox импорттау құралы"
 
-#: main.cpp:50
+#: main.cpp:49
 #, fuzzy, kde-format
 #| msgid "Copyright © 2013 MBoxImporter authors"
 msgid "Copyright © 2013-%1 MBoxImporter authors"
 msgstr "Copyright © 2013 MBoxImporter авторлары"
 
-#: main.cpp:51
+#: main.cpp:50
 #, fuzzy, kde-format
 #| msgid "Laurent Montel"
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:51
+#: main.cpp:50
 #, kde-format
 msgid "Maintainer"
 msgstr "Жетілдірушісі"
