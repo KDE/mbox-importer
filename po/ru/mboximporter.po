@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-22 00:40+0000\n"
+"POT-Creation-Date: 2024-08-10 00:42+0000\n"
 "PO-Revision-Date: 2022-10-02 14:41+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -33,29 +33,29 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "exclusion@gmail.com"
 
-#: main.cpp:46
+#: main.cpp:45
 #, kde-format
 msgid "MBox importer tool"
 msgstr "Средство импорта почтовых ящиков"
 
-#: main.cpp:48
+#: main.cpp:47
 #, kde-format
 msgid "MBox Import Tool"
 msgstr "Средство импорта файлов почтовых ящиков MBox"
 
-#: main.cpp:50
+#: main.cpp:49
 #, kde-format
 msgid "Copyright © 2013-%1 MBoxImporter authors"
 msgstr "© Авторы MBoxImporter, 2013–%1"
 
-#: main.cpp:51
+#: main.cpp:50
 #, fuzzy, kde-format
 #| msgid "Laurent Montel"
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:51
+#: main.cpp:50
 #, kde-format
 msgid "Maintainer"
 msgstr "Сопровождение"
