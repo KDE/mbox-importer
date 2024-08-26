@@ -46,7 +46,6 @@ msgstr ""
 
 #: main.cpp:50
 #, fuzzy, kde-format
-#| msgid "Laurent Montel"
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
