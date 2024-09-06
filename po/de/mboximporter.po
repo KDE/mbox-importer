@@ -3,7 +3,7 @@
 # Frederik Schwarzer <schwarzer@kde.org>, 2016, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: mboximporter\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-08-10 00:42+0000\n"
 "PO-Revision-Date: 2024-08-21 22:42+0200\n"
