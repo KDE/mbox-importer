@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-10 00:42+0000\n"
+"POT-Creation-Date: 2024-11-27 00:41+0000\n"
 "PO-Revision-Date: 2024-08-20 00:33+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -27,33 +27,33 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde@peremen.name"
 
-#: main.cpp:45
+#: main.cpp:31
 #, kde-format
 msgid "MBox importer tool"
 msgstr "MBox 가져오기 도구"
 
-#: main.cpp:47
+#: main.cpp:33
 #, kde-format
 msgid "MBox Import Tool"
 msgstr "MBox 가져오기 도구"
 
-#: main.cpp:49
+#: main.cpp:35
 #, kde-format
 msgid "Copyright © 2013-%1 MBoxImporter authors"
 msgstr "Copyright © 2013-%1 MBoxImporter authors"
 
-#: main.cpp:50
+#: main.cpp:36
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:50
+#: main.cpp:36
 #, kde-format
 msgid "Maintainer"
 msgstr "관리자"
 
-#: main.cpp:62
+#: main.cpp:48
 #, kde-format
 msgid "URL of mbox to be imported"
 msgstr "가져올 mbox URL"

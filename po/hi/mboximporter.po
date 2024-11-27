@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mbox-importer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-10 00:42+0000\n"
+"POT-Creation-Date: 2024-11-27 00:41+0000\n"
 "PO-Revision-Date: 2022-02-10 11:25+0530\n"
 "Last-Translator: Raghavendra Kamath <raghu@raghukamath.com>\n"
 "Language-Team: Hindi <kde-l10n-hi@kde.org>\n"
@@ -28,34 +28,34 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "lumarzeli30@gmail.com, raghu@raghukamath.com"
 
-#: main.cpp:45
+#: main.cpp:31
 #, kde-format
 msgid "MBox importer tool"
 msgstr "एमबॉक्स आयातक साधन"
 
-#: main.cpp:47
+#: main.cpp:33
 #, kde-format
 msgid "MBox Import Tool"
 msgstr "एमबॉक्स आयात साधन"
 
-#: main.cpp:49
+#: main.cpp:35
 #, kde-format
 msgid "Copyright © 2013-%1 MBoxImporter authors"
 msgstr "सर्वाधिकार सुरक्षित © २०१३-%1 एमबॉक्स आयातक के लेखक"
 
-#: main.cpp:50
+#: main.cpp:36
 #, fuzzy, kde-format
 #| msgid "Laurent Montel"
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "लारेंट मोंटेल"
 
-#: main.cpp:50
+#: main.cpp:36
 #, kde-format
 msgid "Maintainer"
 msgstr "अनुरक्षक"
 
-#: main.cpp:62
+#: main.cpp:48
 #, kde-format
 msgid "URL of mbox to be imported"
 msgstr "आयात करने हेतु एमबॉक्स का यूआरएल"
