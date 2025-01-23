@@ -2,13 +2,13 @@
 # SPDX-License-Identifier: CC0-1.0
 
 Dependencies:
-- 'on': ['Linux', 'FreeBSD', 'Windows']
-  'require':
+ - 'on': ['Linux', 'FreeBSD', 'Windows']
+   'require':
     'frameworks/extra-cmake-modules': '@latest-kf6'
     'frameworks/kiconthemes': '@latest-kf6'
-    'pim/akonadi' : '@same'
-    'pim/mailcommon' : '@same'
-    'pim/mailimporter' : '@same'
+    'pim/akonadi': '@same'
+    'pim/mailcommon': '@same'
+    'pim/mailimporter': '@same'
 
 Options:
-  require-passing-tests-on: [ 'Linux', 'FreeBSD']
+ require-passing-tests-on: ['Linux', 'FreeBSD']
