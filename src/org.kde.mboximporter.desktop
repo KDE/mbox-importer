@@ -58,4 +58,4 @@ Icon=kmail
 MimeType=application/mbox;
 Categories=Qt;KDE;Office;Network;Email;
 StartupNotify=true
-Hidden=true
+NoDisplay=true
