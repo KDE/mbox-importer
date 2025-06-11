@@ -1,4 +1,8 @@
-configure_file(mboximporter-version.h.in ${CMAKE_CURRENT_BINARY_DIR}/mboximporter-version.h @ONLY)
+configure_file(
+    mboximporter-version.h.in
+    ${CMAKE_CURRENT_BINARY_DIR}/mboximporter-version.h
+    @ONLY
+)
 
 set(mboximporter_SRCS
     main.cpp
@@ -20,17 +24,18 @@ add_executable(mboximporter ${mboximporter_SRCS})
 if(COMPILE_WITH_UNITY_CMAKE_SUPPORT)
     set_target_properties(mboximporter PROPERTIES UNITY_BUILD ON)
 endif()
-target_link_libraries(mboximporter
+target_link_libraries(
+    mboximporter
     PRIVATE
-    KPim6::AkonadiCore
-    KPim6::IdentityManagementCore
-    KPim6::MailImporterAkonadi
-    KPim6::MailCommon
-    KF6::I18n
-    KF6::Crash
-    KF6::IconThemes
+        KPim6::AkonadiCore
+        KPim6::IdentityManagementCore
+        KPim6::MailImporterAkonadi
+        KPim6::MailCommon
+        KF6::I18n
+        KF6::Crash
+        KF6::IconThemes
 )
 
-install(TARGETS mboximporter  ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+install(TARGETS mboximporter ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
 
 install(PROGRAMS org.kde.mboximporter.desktop DESTINATION ${KDE_INSTALL_APPDIR})

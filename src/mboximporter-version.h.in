@@ -17,4 +17,3 @@
 
 #pragma once
 #define MBOXIMPORTER_VERSION "@KDEPIM_VERSION@"
-
