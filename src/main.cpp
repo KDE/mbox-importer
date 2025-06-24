@@ -5,6 +5,8 @@
 */
 
 #include "mboxmainwindow.h"
+using namespace Qt::Literals::StringLiterals;
+
 #include <KAboutData>
 #include <QApplication>
 
@@ -23,19 +25,19 @@ int main(int argc, char *argv[])
 {
     KIconTheme::initTheme();
     QApplication app(argc, argv);
-    app.setDesktopFileName(QStringLiteral("org.kde.mboximporter"));
+    app.setDesktopFileName(u"org.kde.mboximporter"_s);
     KStyleManager::initStyle();
     KLocalizedString::setApplicationDomain(QByteArrayLiteral("mboximporter"));
 
-    KAboutData aboutData(QStringLiteral("mboximporter"),
+    KAboutData aboutData(u"mboximporter"_s,
                          i18n("MBox importer tool"),
                          QStringLiteral(MBOXIMPORTER_VERSION),
                          i18n("MBox Import Tool"),
                          KAboutLicense::GPL_V2,
-                         i18n("Copyright © 2013-%1 MBoxImporter authors", QStringLiteral("2025")));
-    aboutData.addAuthor(i18nc("@info:credit", "Laurent Montel"), i18n("Maintainer"), QStringLiteral("montel@kde.org"));
+                         i18n("Copyright © 2013-%1 MBoxImporter authors", u"2025"_s));
+    aboutData.addAuthor(i18nc("@info:credit", "Laurent Montel"), i18n("Maintainer"), u"montel@kde.org"_s);
 
-    QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("kmail")));
+    QApplication::setWindowIcon(QIcon::fromTheme(u"kmail"_s));
     aboutData.setProductName(QByteArray("mboximporter"));
 
     KAboutData::setApplicationData(aboutData);
@@ -45,7 +47,7 @@ int main(int argc, char *argv[])
     QCommandLineParser parser;
     aboutData.setupCommandLine(&parser);
 
-    parser.addPositionalArgument(QStringLiteral("url"), i18n("URL of mbox to be imported"), QStringLiteral("[url]"));
+    parser.addPositionalArgument(u"url"_s, i18n("URL of mbox to be imported"), u"[url]"_s);
 
     parser.process(app);
     aboutData.processCommandLine(&parser);
