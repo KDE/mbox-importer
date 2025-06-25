@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mboximporter\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-27 00:41+0000\n"
+"POT-Creation-Date: 2025-06-25 00:43+0000\n"
 "PO-Revision-Date: 2018-01-06 09:21+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
@@ -28,35 +28,35 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "caslav.ilic@gmx.net"
 
-#: main.cpp:31
+#: main.cpp:33
 #, kde-format
 msgid "MBox importer tool"
 msgstr "Alatka za uvoz mboxa"
 
-#: main.cpp:33
+#: main.cpp:35
 #, kde-format
 msgid "MBox Import Tool"
 msgstr "Alatka za uvoz mboxa"
 
-#: main.cpp:35
+#: main.cpp:37
 #, fuzzy, kde-format
 #| msgid "Copyright © 2013-2018 MBoxImporter authors"
 msgid "Copyright © 2013-%1 MBoxImporter authors"
 msgstr "© 2013–2018, autori uvoza mboxa"
 
-#: main.cpp:36
+#: main.cpp:38
 #, fuzzy, kde-format
 #| msgid "Laurent Montel"
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Loren Montel"
 
-#: main.cpp:36
+#: main.cpp:38
 #, kde-format
 msgid "Maintainer"
 msgstr "Održavalac"
 
-#: main.cpp:48
+#: main.cpp:50
 #, kde-format
 msgid "URL of mbox to be imported"
 msgstr "URL mboxa za uvoz"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mboximporter\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-27 00:41+0000\n"
+"POT-Creation-Date: 2025-06-25 00:43+0000\n"
 "PO-Revision-Date: 2022-03-27 00:36+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -23,34 +23,34 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "zepires@gmail.com"
 
-#: main.cpp:31
+#: main.cpp:33
 #, kde-format
 msgid "MBox importer tool"
 msgstr "Ferramenta de importação de MBox"
 
-#: main.cpp:33
+#: main.cpp:35
 #, kde-format
 msgid "MBox Import Tool"
 msgstr "Ferramenta de Importação de MBox"
 
-#: main.cpp:35
+#: main.cpp:37
 #, kde-format
 msgid "Copyright © 2013-%1 MBoxImporter authors"
 msgstr "'Copyright' © 2013-%1 dos autores do MBoxImporter"
 
-#: main.cpp:36
+#: main.cpp:38
 #, fuzzy, kde-format
 #| msgid "Laurent Montel"
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:36
+#: main.cpp:38
 #, kde-format
 msgid "Maintainer"
 msgstr "Manutenção"
 
-#: main.cpp:48
+#: main.cpp:50
 #, kde-format
 msgid "URL of mbox to be imported"
 msgstr "O URL do MBox a importar"
