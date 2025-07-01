@@ -14,7 +14,11 @@ include(ECMAddTests)
 include(GenerateExportHeader)
 include(ECMGenerateHeaders)
 
-file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES src/*.cpp src/*.h)
+file(
+    GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES
+    src/*.cpp
+    src/*.h
+)
 
 set(PRE_COMMIT_INSTALLED FALSE)
 if(${CMAKE_SOURCE_DIR} STREQUAL ${PROJECT_SOURCE_DIR})
@@ -42,7 +46,11 @@ include(ECMDeprecationSettings)
 include(ECMFeatureSummary)
 
 include(ECMCheckOutboundLicense)
-file(GLOB_RECURSE ALL_SOURCE_FILES src/*.cpp src/*.h)
+file(
+    GLOB_RECURSE ALL_SOURCE_FILES
+    src/*.cpp
+    src/*.h
+)
 ecm_check_outbound_license(LICENSES GPL-2.0-only  FILES ${ALL_SOURCE_FILES})
 
 # Do NOT add quote
@@ -53,16 +61,21 @@ if(DEFINED KDEPIM_DEV_VERSION)
     set(KDEPIM_DEV_VERSION " ${KDEPIM_DEV_VERSION}")
 endif()
 
-set(KDEPIM_VERSION
-    "${PIM_VERSION}${KDEPIM_DEV_VERSION} (${RELEASE_SERVICE_VERSION})"
-)
+set(KDEPIM_VERSION "${PIM_VERSION}${KDEPIM_DEV_VERSION} (${RELEASE_SERVICE_VERSION})")
 
 set(AKONADI_VERSION "6.4.40")
 
 set(KDEPIM_LIB_VERSION "${PIM_VERSION}")
 set(KDEPIM_LIB_SOVERSION "6")
 
-find_package(Qt6 ${QT_REQUIRED_VERSION} CONFIG REQUIRED Gui Widgets)
+find_package(
+    Qt6
+    ${QT_REQUIRED_VERSION}
+    CONFIG
+    REQUIRED
+        Gui
+        Widgets
+)
 set(LIBMAILIMPORTER_VERSION "6.4.40")
 set(MAILCOMMON_LIB_VERSION "6.4.40")
 set(IDENTITYMANAGEMENT_LIB_VERSION "6.4.40")
@@ -78,29 +91,18 @@ find_package(KF6IconThemes ${KF_MIN_VERSION} QUIET)
 find_package(KPim6Akonadi ${AKONADI_VERSION} CONFIG REQUIRED)
 
 find_package(KPim6MailCommon ${MAILCOMMON_LIB_VERSION} CONFIG REQUIRED)
-find_package(
-    KPim6MailImporterAkonadi
-    ${LIBMAILIMPORTER_VERSION}
-    CONFIG
-    REQUIRED
-)
-find_package(
-    KPim6IdentityManagementCore
-    ${IDENTITYMANAGEMENT_LIB_VERSION}
-    CONFIG
-    REQUIRED
-)
+find_package(KPim6MailImporterAkonadi ${LIBMAILIMPORTER_VERSION} CONFIG REQUIRED)
+find_package(KPim6IdentityManagementCore ${IDENTITYMANAGEMENT_LIB_VERSION} CONFIG REQUIRED)
 
-include_directories(${mbox-importer_SOURCE_DIR} ${mbox-importer_BINARY_DIR})
+include_directories(
+    ${mbox-importer_SOURCE_DIR}
+    ${mbox-importer_BINARY_DIR}
+)
 
 add_definitions(-DQT_NO_CONTEXTLESS_CONNECT)
 ecm_set_disabled_deprecation_versions(QT 6.10.0 KF 6.15.0)
 
-option(
-    USE_UNITY_CMAKE_SUPPORT
-    "Use UNITY cmake support (speedup compile time)"
-    OFF
-)
+option(USE_UNITY_CMAKE_SUPPORT "Use UNITY cmake support (speedup compile time)" OFF)
 
 set(COMPILE_WITH_UNITY_CMAKE_SUPPORT OFF)
 if(USE_UNITY_CMAKE_SUPPORT)
