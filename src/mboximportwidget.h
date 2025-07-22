@@ -31,7 +31,6 @@ public:
     ~MBoxImportWidget() override;
     MailImporter::ImportMailsWidget *mailWidget();
     [[nodiscard]] Akonadi::Collection selectedCollection() const;
-    void setImportButtonEnabled(bool enabled);
 
 private Q_SLOTS:
     void collectionChanged(const Akonadi::Collection &collection);
