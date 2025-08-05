@@ -52,7 +52,7 @@ msgstr "لوران مونتال"
 #: main.cpp:38
 #, kde-format
 msgid "Maintainer"
-msgstr "المصين"
+msgstr "الصائن"
 
 #: main.cpp:50
 #, kde-format
