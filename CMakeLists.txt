@@ -35,7 +35,7 @@ if(NOT ${PRE_COMMIT_INSTALLED})
     find_program(PRE_COMMIT_EXECUTABLE pre-commit)
     if(PRE_COMMIT_EXECUTABLE)
         message(
-            STATUS
+		WARNING
             "This module has pre-commit support. pre-commit binary was found. Please execute pre-commit install -f"
         )
     endif()
