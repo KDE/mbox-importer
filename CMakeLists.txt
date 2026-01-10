@@ -1,5 +1,5 @@
 set(PIM_VERSION "6.6.40")
-cmake_minimum_required(VERSION 3.16 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.16)
 project(mbox-importer VERSION ${PIM_VERSION})
 
 set(KF_MIN_VERSION "6.20.0")
