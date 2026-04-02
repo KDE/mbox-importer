@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
                          QStringLiteral(MBOXIMPORTER_VERSION),
                          i18n("MBox Import Tool"),
                          KAboutLicense::GPL_V2,
-                         i18n("Copyright © 2013-%1 MBoxImporter authors", u"2025"_s));
+                         i18n("Copyright © 2013-%1 MBoxImporter authors", u"2026"_s));
     aboutData.addAuthor(i18nc("@info:credit", "Laurent Montel"), i18n("Maintainer"), u"montel@kde.org"_s);
 
     QApplication::setWindowIcon(QIcon::fromTheme(u"kmail"_s));
