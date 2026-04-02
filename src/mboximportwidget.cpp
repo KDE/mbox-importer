@@ -36,4 +36,9 @@ Akonadi::Collection MBoxImportWidget::selectedCollection() const
     return ui->mCollectionRequestor->collection();
 }
 
+void MBoxImportWidget::setImportButtonEnabled(bool enabled)
+{
+    ui->importMails->setEnabled(enabled);
+}
+
 #include "moc_mboximportwidget.cpp"

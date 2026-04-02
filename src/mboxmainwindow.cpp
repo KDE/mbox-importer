@@ -48,6 +48,8 @@ MBoxMainWindow::~MBoxMainWindow() = default;
 
 void MBoxMainWindow::slotImportMBox()
 {
+    mImportWidget->setImportButtonEnabled(false);
+
     auto info = new MailImporter::FilterInfo();
     auto filterImporterAkonadi = new MailImporter::FilterImporterAkonadi(info);
     auto infoGui = new MBoxImporterInfoGui(mImportWidget);
