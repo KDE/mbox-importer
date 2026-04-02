@@ -64,6 +64,11 @@ void MBoxMainWindow::slotImportMBox()
     info->clear();
     mbox.importMails({mFileName});
     info->setStatusMessage(i18n("Import finished"));
+
+    delete filterImporterAkonadi;
+    delete info;
+
+    mImportWidget->setImportButtonEnabled(true);
 }
 
 #include "moc_mboxmainwindow.cpp"
