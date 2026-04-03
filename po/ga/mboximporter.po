@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mbox-importer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:53+0000\n"
+"POT-Creation-Date: 2026-04-03 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Irish Gaelic <kde-i18n-doc@kde.org>\n"
@@ -65,12 +65,12 @@ msgctxt "@title:window"
 msgid "Import mbox file"
 msgstr ""
 
-#: mboxmainwindow.cpp:58
+#: mboxmainwindow.cpp:60
 #, kde-format
 msgid "Import in progress"
 msgstr ""
 
-#: mboxmainwindow.cpp:64
+#: mboxmainwindow.cpp:66
 #, kde-format
 msgid "Import finished"
 msgstr ""
