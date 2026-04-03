@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:53+0000\n"
+"POT-Creation-Date: 2026-04-03 02:41+0000\n"
 "PO-Revision-Date: 2014-09-13 18:22+0200\n"
 "Last-Translator: Bjørn Steensrud <bjornst@skogkatt.homelinux.org>\n"
 "Language-Team: Norwegian Bokmål <l10n-no@lister.huftis.org>\n"
@@ -66,12 +66,12 @@ msgctxt "@title:window"
 msgid "Import mbox file"
 msgstr ""
 
-#: mboxmainwindow.cpp:58
+#: mboxmainwindow.cpp:60
 #, kde-format
 msgid "Import in progress"
 msgstr "Import pågår"
 
-#: mboxmainwindow.cpp:64
+#: mboxmainwindow.cpp:66
 #, kde-format
 msgid "Import finished"
 msgstr "Import fullført"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:53+0000\n"
+"POT-Creation-Date: 2026-04-03 02:41+0000\n"
 "PO-Revision-Date: 2026-01-10 20:59+0200\n"
 "Last-Translator: Liudas Ališauskas <liudas@aksioma.lt>\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
@@ -67,12 +67,12 @@ msgctxt "@title:window"
 msgid "Import mbox file"
 msgstr "Importuoti mbox failą"
 
-#: mboxmainwindow.cpp:58
+#: mboxmainwindow.cpp:60
 #, kde-format
 msgid "Import in progress"
 msgstr "Vyksta importavimas"
 
-#: mboxmainwindow.cpp:64
+#: mboxmainwindow.cpp:66
 #, kde-format
 msgid "Import finished"
 msgstr "Importavimas baigtas"
