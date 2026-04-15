@@ -2,7 +2,7 @@ set(PIM_VERSION "6.7.40")
 cmake_minimum_required(VERSION 3.29)
 project(mbox-importer VERSION ${PIM_VERSION})
 
-set(KF_MIN_VERSION "6.22.0")
+set(KF_MIN_VERSION "6.23.0")
 set(QT_REQUIRED_VERSION "6.9.0")
 find_package(ECM ${KF_MIN_VERSION} CONFIG REQUIRED)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
