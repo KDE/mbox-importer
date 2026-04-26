@@ -151,6 +151,8 @@ set(COMPILE_WITH_UNITY_CMAKE_SUPPORT OFF)
 if(USE_UNITY_CMAKE_SUPPORT)
     set(COMPILE_WITH_UNITY_CMAKE_SUPPORT ON)
 endif()
+add_compile_definitions(QT_ENABLE_STRICT_MODE_UP_TO=0x060B00)
+
 add_subdirectory(src)
 if(GIT_SOURCE_TARBALL)
     if(DEFINED kde_configure_git_pre_commit_hook)
