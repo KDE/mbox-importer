@@ -1,4 +1,4 @@
-set(PIM_VERSION "6.7.40")
+set(PIM_VERSION "6.8.40")
 cmake_minimum_required(VERSION 3.29)
 project(mbox-importer VERSION ${PIM_VERSION})
 
@@ -94,7 +94,7 @@ ecm_check_outbound_license(LICENSES GPL-2.0-only  FILES ${ALL_SOURCE_FILES})
 
 # Do NOT add quote
 set(KDEPIM_DEV_VERSION alpha)
-set(RELEASE_SERVICE_VERSION "26.07.40")
+set(RELEASE_SERVICE_VERSION "26.11.40")
 # add an extra space
 if(DEFINED KDEPIM_DEV_VERSION)
     set(KDEPIM_DEV_VERSION " ${KDEPIM_DEV_VERSION}")
