@@ -120,6 +120,7 @@ set(IDENTITYMANAGEMENT_LIB_VERSION "6.7.80")
 find_package(KF6Config ${KF_MIN_VERSION} CONFIG REQUIRED)
 find_package(KF6Service ${KF_MIN_VERSION} CONFIG REQUIRED)
 find_package(KF6Crash ${KF_MIN_VERSION} REQUIRED)
+find_package(KF6I18n ${KF_MIN_VERSION} CONFIG REQUIRED)
 find_package(KF6IconThemes ${KF_MIN_VERSION} QUIET)
 
 # Find KdepimLibs Package
