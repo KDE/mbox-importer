@@ -55,18 +55,14 @@ void MBoxImporterInfoGui::setOverall(int percent)
 
 void MBoxImporterInfoGui::addInfoLogEntry(const QString &log)
 {
-    auto item = new QListWidgetItem(log);
-    item->setForeground(Qt::blue);
-    mParent->mailWidget()->addItem(item);
+    mParent->mailWidget()->addInfoLogEntry(log);
     mParent->mailWidget()->setLastCurrentItem();
     qApp->processEvents();
 }
 
 void MBoxImporterInfoGui::addErrorLogEntry(const QString &log)
 {
-    auto item = new QListWidgetItem(log);
-    item->setForeground(Qt::red);
-    mParent->mailWidget()->addItem(item);
+    mParent->mailWidget()->addErrorLogEntry(log);
     mParent->mailWidget()->setLastCurrentItem();
     qApp->processEvents();
 }
