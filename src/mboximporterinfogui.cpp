@@ -12,7 +12,6 @@
 #include <KMessageBox>
 
 #include <QApplication>
-#include <QListWidgetItem>
 
 MBoxImporterInfoGui::MBoxImporterInfoGui(MBoxImportWidget *parent)
     : MailImporter::FilterInfoGui()
