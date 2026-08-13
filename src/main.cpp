@@ -14,8 +14,11 @@ using namespace Qt::Literals::StringLiterals;
 #include <KCrash>
 #include <KLocalizedString>
 #include <QCommandLineParser>
+#include <QDebug>
+#include <QDir>
 #include <QFileDialog>
 #include <QIcon>
+#include <QUrl>
 
 #include <KIconTheme>
 
@@ -52,9 +55,14 @@ int main(int argc, char *argv[])
     parser.process(app);
     aboutData.processCommandLine(&parser);
 
-    const QStringList &args = parser.positionalArguments();
+    const QStringList args = parser.positionalArguments();
     if (!args.isEmpty()) {
-        fileName = args.at(0);
+        const QUrl url = QUrl::fromUserInput(args.at(0), QDir::currentPath(), QUrl::AssumeLocalFile);
+        if (!url.isLocalFile()) {
+            qWarning() << "Only local mbox files can be imported:" << args.at(0);
+            return 1;
+        }
+        fileName = url.toLocalFile();
     } else {
         fileName = QFileDialog::getOpenFileName();
     }
