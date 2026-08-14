@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-03 00:44+0000\n"
+"POT-Creation-Date: 2026-08-14 00:46+0000\n"
 "PO-Revision-Date: 2026-01-10 20:59+0200\n"
 "Last-Translator: Liudas Ališauskas <liudas@aksioma.lt>\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
@@ -30,33 +30,33 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "liudas@akmc.lt, <>"
 
-#: main.cpp:33
+#: main.cpp:36
 #, kde-format
 msgid "MBox importer tool"
 msgstr "MBox importavimo įrankis"
 
-#: main.cpp:35
+#: main.cpp:38
 #, kde-format
 msgid "MBox Import Tool"
 msgstr "MBox importavimo įrankis"
 
-#: main.cpp:37
+#: main.cpp:40
 #, kde-format
 msgid "Copyright © 2013-%1 MBoxImporter authors"
 msgstr "Autorių teisės © 2013–%1 MBoxImporter autoriai"
 
-#: main.cpp:38
+#: main.cpp:41
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:38
+#: main.cpp:41
 #, kde-format
 msgid "Maintainer"
 msgstr "Prižiūrėtojas"
 
-#: main.cpp:50
+#: main.cpp:53
 #, kde-format
 msgid "URL of mbox to be imported"
 msgstr "Importuotino mbox URL"
