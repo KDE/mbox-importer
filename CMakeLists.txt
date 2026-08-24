@@ -1,4 +1,4 @@
-set(PIM_VERSION "6.8.0")
+set(PIM_VERSION "6.8.1")
 cmake_minimum_required(VERSION 3.29)
 project(mbox-importer VERSION ${PIM_VERSION})
 
