@@ -23,14 +23,14 @@ using namespace Qt::Literals::StringLiterals;
 #include <KIconTheme>
 
 #include <KStyleManager>
-
+using namespace Qt::Literals::StringLiterals;
 int main(int argc, char *argv[])
 {
     KIconTheme::initTheme();
     QApplication app(argc, argv);
     app.setDesktopFileName(u"org.kde.mboximporter"_s);
     KStyleManager::initStyle();
-    KLocalizedString::setApplicationDomain(QByteArrayLiteral("mboximporter"));
+    KLocalizedString::setApplicationDomain("mboximporter"_ba);
 
     KAboutData aboutData(u"mboximporter"_s,
                          i18n("MBox importer tool"),
@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
     aboutData.addAuthor(i18nc("@info:credit", "Laurent Montel"), i18n("Maintainer"), u"montel@kde.org"_s);
 
     QApplication::setWindowIcon(QIcon::fromTheme(u"kmail"_s));
-    aboutData.setProductName(QByteArray("mboximporter"));
+    aboutData.setProductName("mboximporter"_ba);
 
     KAboutData::setApplicationData(aboutData);
     KCrash::initialize();
