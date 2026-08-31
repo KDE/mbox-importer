@@ -9,21 +9,23 @@
 #include <Akonadi/ChangeRecorder>
 #include <Akonadi/EntityMimeTypeFilterModel>
 #include <Akonadi/EntityTreeModel>
+#include <Akonadi/ItemFetchScope>
 #include <Akonadi/Session>
 #include <KIdentityManagementCore/IdentityManager>
 #include <KSharedConfig>
 #include <MailCommon/FolderCollectionMonitor>
-
+using namespace Qt::Literals::StringLiterals;
 MBoxImporterKernel::MBoxImporterKernel(QObject *parent)
     : QObject(parent)
 {
     mIdentityManager = KIdentityManagementCore::IdentityManager::self();
-    auto session = new Akonadi::Session("MBox importer Kernel ETM", this);
+    auto session = new Akonadi::Session("MBox importer Kernel ETM"_ba, this);
     mFolderCollectionMonitor = new MailCommon::FolderCollectionMonitor(session, this);
+    folderCollectionMonitor()->setItemFetchScope(Akonadi::ItemFetchScope());
 
     mEntityTreeModel = new Akonadi::EntityTreeModel(folderCollectionMonitor(), this);
     mEntityTreeModel->setListFilter(Akonadi::CollectionFetchScope::Enabled);
-    mEntityTreeModel->setItemPopulationStrategy(Akonadi::EntityTreeModel::LazyPopulation);
+    mEntityTreeModel->setItemPopulationStrategy(Akonadi::EntityTreeModel::NoItemPopulation);
 
     mCollectionModel = new Akonadi::EntityMimeTypeFilterModel(this);
     mCollectionModel->setSourceModel(mEntityTreeModel);
