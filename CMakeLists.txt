@@ -93,12 +93,7 @@ include(ECMDeprecationSettings)
 include(ECMFeatureSummary)
 
 include(ECMCheckOutboundLicense)
-file(
-    GLOB_RECURSE ALL_SOURCE_FILES
-    src/*.cpp
-    src/*.h
-)
-ecm_check_outbound_license(LICENSES GPL-2.0-only  FILES ${ALL_SOURCE_FILES})
+ecm_check_outbound_license(LICENSES GPL-2.0-only  FILES ${ALL_CLANG_FORMAT_SOURCE_FILES})
 
 # Do NOT add quote
 set(KDEPIM_DEV_VERSION alpha)
@@ -126,7 +121,6 @@ set(IDENTITYMANAGEMENT_LIB_VERSION "6.8.40")
 
 # Find KF6 package
 find_package(KF6Config ${KF_MIN_VERSION} CONFIG REQUIRED)
-find_package(KF6Service ${KF_MIN_VERSION} CONFIG REQUIRED)
 find_package(KF6Crash ${KF_MIN_VERSION} REQUIRED)
 find_package(KF6I18n ${KF_MIN_VERSION} CONFIG REQUIRED)
 find_package(KF6IconThemes ${KF_MIN_VERSION} QUIET)
