@@ -5,7 +5,6 @@
 */
 
 #include "mboxmainwindow.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include <KAboutData>
 #include <QApplication>
@@ -24,6 +23,8 @@ using namespace Qt::Literals::StringLiterals;
 
 #include <KStyleManager>
 using namespace Qt::Literals::StringLiterals;
+using namespace Qt::Literals::StringLiterals;
+
 int main(int argc, char *argv[])
 {
     KIconTheme::initTheme();
