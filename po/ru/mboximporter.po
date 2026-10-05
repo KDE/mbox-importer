@@ -58,7 +58,7 @@ msgstr "Laurent Montel"
 #: main.cpp:38
 #, kde-format
 msgid "Maintainer"
-msgstr "Сопровождение"
+msgstr "Сопровождающий"
 
 #: main.cpp:50
 #, kde-format
