@@ -12,7 +12,6 @@
 #include <Akonadi/ItemFetchScope>
 #include <Akonadi/Session>
 #include <KIdentityManagementCore/IdentityManager>
-#include <KSharedConfig>
 #include <MailCommon/FolderCollectionMonitor>
 using namespace Qt::Literals::StringLiterals;
 MBoxImporterKernel::MBoxImporterKernel(QObject *parent)

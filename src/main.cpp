@@ -23,7 +23,6 @@
 
 #include <KStyleManager>
 using namespace Qt::Literals::StringLiterals;
-using namespace Qt::Literals::StringLiterals;
 
 int main(int argc, char *argv[])
 {

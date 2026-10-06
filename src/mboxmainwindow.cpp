@@ -10,7 +10,6 @@
 #include "mboximportwidget.h"
 
 #include <MailImporter/FilterMBox>
-#include <MailImporter/ImportMailsWidget>
 #include <MailImporterAkonadi/FilterImporterAkonadi>
 
 #include <MailCommon/MailKernel>
