@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-06 00:48+0000\n"
+"POT-Creation-Date: 2026-10-07 00:50+0000\n"
 "PO-Revision-Date: 2020-01-02 11:44+0200\n"
 "Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
 "Language-Team: Estonian <kde-et@lists.linux.ee>\n"
@@ -27,51 +27,51 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "qiilaq69@gmail.com"
 
-#: main.cpp:37
+#: main.cpp:36
 #, kde-format
 msgid "MBox importer tool"
 msgstr "MBoxi importimise tööriist"
 
-#: main.cpp:39
+#: main.cpp:38
 #, kde-format
 msgid "MBox Import Tool"
 msgstr "MBoxi importimise tööriist"
 
-#: main.cpp:41
+#: main.cpp:40
 #, fuzzy, kde-format
 #| msgid "Copyright © 2013-2020 MBoxImporter authors"
 msgid "Copyright © 2013-%1 MBoxImporter authors"
 msgstr "Autoriõigus © 2013-2020: MBoxImporteri autorid"
 
-#: main.cpp:42
+#: main.cpp:41
 #, fuzzy, kde-format
 #| msgid "Laurent Montel"
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:42
+#: main.cpp:41
 #, kde-format
 msgid "Maintainer"
 msgstr "Hooldaja"
 
-#: main.cpp:54
+#: main.cpp:53
 #, kde-format
 msgid "URL of mbox to be imported"
 msgstr "Imporditava MBoxi URL"
 
-#: mboxmainwindow.cpp:27
+#: mboxmainwindow.cpp:26
 #, kde-format
 msgctxt "@title:window"
 msgid "Import mbox file"
 msgstr "MBoxi faili import"
 
-#: mboxmainwindow.cpp:60
+#: mboxmainwindow.cpp:59
 #, kde-format
 msgid "Import in progress"
 msgstr "Import käib"
 
-#: mboxmainwindow.cpp:66
+#: mboxmainwindow.cpp:65
 #, kde-format
 msgid "Import finished"
 msgstr "Import on lõpetatud"
